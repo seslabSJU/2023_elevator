@@ -1,0 +1,12 @@
+./train/images\frame_1710_jpg.rf.117142841ac3605bd8d1601f41a53961.jpg
+./train/images\frame_1710_jpg.rf.85d92e6ce06c7f80bdec12ee08f22c57.jpg
+./train/images\frame_1710_jpg.rf.c7d106407fddf584d1dfcc81d1133268.jpg
+./train/images\frame_2190_jpg.rf.025e94974daa146d04679e56c554a69e.jpg
+./train/images\frame_2190_jpg.rf.82d17c9f74bfa256a594cb489605b279.jpg
+./train/images\frame_2190_jpg.rf.ea7b0fa5ec3d4c0a0f9b0d3e74295d83.jpg
+./train/images\frame_3120_jpg.rf.3236ec8f2eb8da55375942b01a6d5a20.jpg
+./train/images\frame_3120_jpg.rf.96ab5e49046665a2ef0fa0d9fcee3280.jpg
+./train/images\frame_3120_jpg.rf.f04d8fb736d5c7e1bdc0e062db3be7af.jpg
+./train/images\frame_660_jpg.rf.04adc056afb627f977a77c393b8bf00e.jpg
+./train/images\frame_660_jpg.rf.34b9cfafeb0980dc4c888e93ce61c59d.jpg
+./train/images\frame_660_jpg.rf.708cdbccd1e13e0c8c8b3e8127260f93.jpg

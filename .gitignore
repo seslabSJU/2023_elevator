@@ -3,6 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#My Custom
+/Images_Real
+/Images_Sample
+*.mp4
+*.h264
+*.jpg
+*.pt
+*.onnx
+*.engine
+
 # C extensions
 *.so
 
