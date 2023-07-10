@@ -31,10 +31,10 @@ def execute_train():
 )
 def execute_test():
 
-    model = YOLO(f'E:\ML\Elevator Git\Effective_Elavator_Algorithm_For_SejongAICenter\yolov8\\runs\detect\CC2\weights\\best.pt')
+    model = YOLO(f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\yolov8\\runs\detect\CC2\weights\\best.pt')
 
     results = model.predict(
-        source = f'E:\ML\Elevator Git\Effective_Elavator_Algorithm_For_SejongAICenter\Images_Sample\Elevator_Sample',
+        source = f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Sample\Elevator_Sample',
         imgsz=640,
         conf=0.5,
         save=True

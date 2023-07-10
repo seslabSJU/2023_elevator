@@ -9,7 +9,7 @@ from glob import glob
 # This is where YOLOv8 CustomTrained python file exists
 
 os.chdir('..')
-os.chdir('Dataset/Roboflow/SAI Elevator.v1i.yolov8')
+os.chdir('Roboflow/SAI Elevator.v1i.yolov8')
 
 train_img_list = glob('./train/images/*.jpg') + glob('./train/images/*.jpeg')
 valid_img_list = glob('./valid/images/*.jpg') + glob('./valid/images/*.jpeg')

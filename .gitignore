@@ -6,6 +6,7 @@ __pycache__/
 #My Custom
 /Images_Real
 /Images_Sample
+/Videos
 *.mp4
 *.h264
 *.jpg
