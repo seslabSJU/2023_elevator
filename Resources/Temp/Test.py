@@ -8,6 +8,12 @@ from PIL import Image
 import requests
 from io import BytesIO
 import cv2
+
+
+def temp(value):
+    print("{}\n".format(str(value)*value))
+
+
 start_time = time.time()
 
 print(torch.__version__)
@@ -27,3 +33,4 @@ end_time = time.time()
 
 execution_time = end_time - start_time
 print("Execution time:", execution_time, "seconds")
+

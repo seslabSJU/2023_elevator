@@ -1,0 +1,9 @@
+[Unit]
+Description=1010 Service Timer
+
+[Timer]
+OnBootSec=1min
+Unit=1010.service
+
+[Install]
+WantedBy=default.target

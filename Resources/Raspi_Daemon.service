@@ -1,0 +1,8 @@
+[Unit]
+Description=Automatic Video Shooting When Turned On
+
+[Service]
+ExecStart=/usr/bin/python3 /home/user/Videos/libcamera_vid/run.py >> /home/user/Videos/libcamera_vid/log_info.log 2>&1
+
+[Install]
+WantedBy=default.target
