@@ -54,7 +54,7 @@ def draw_points(img, cnt, epsilon, color):
 
 
 # 이미지 불러와서 필터링
-path = f'E:/ML/Elevator Git/Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Images_Sample/Elevator_Sample/frame_510.jpg'
+path = f'/Elevator Git/Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Images_Sample/Elevator_Sample/frame_510.jpg'
 img = cv2.imread(path)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ret, thr = cv2.threshold(gray, 0, 255, cv2.THRESH_OTSU)
