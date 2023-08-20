@@ -5,7 +5,7 @@ import sys
 import cv2
 import numpy as np
 
-path = f'/Elevator Git/Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Images_Sample/Elevator_Sample/frame_510.jpg'
+path = f'E:/ML/Elevator Git/Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Images_Sample/Elevator_Sample/frame_510.jpg'
 img = cv2.imread(path)
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

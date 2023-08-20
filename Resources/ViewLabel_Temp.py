@@ -3,38 +3,11 @@ import sys
 
 import cv2
 import os
-from pathlib import Path
 import yaml
 import time
 
-# Class ID
-#     0 -> 1st Floor
-#     1 -> 10th Floor
-#     2 -> 11th Floor
-#     3 -> 12th Floor
-#     4 -> 2nd Floor
-#     5   .
-#     6   .
-#     7   .
-#     8
-#     9
-#     10
-#     11 -> 9th Floor
-#     12 -> B1
-#     13 -> B2
-#     14 -> B3
-#     15 -> B4
-#     16 -> B5
-#     17 -> Close
-#     18 -> Green
-#     19 -> Human
-#     20 -> Open
-#     21 -> Panel
-
-
-def display_label_info(image_path, label_text_path, yaml_path):
-
-    image = cv2.imread(image_path)
+import Detect_Color
+def get_label_data(label_text_path):
     label_data = []
 
     with open(label_text_path, 'r') as f:
@@ -51,6 +24,11 @@ def display_label_info(image_path, label_text_path, yaml_path):
 
         label_data.append((class_id, x, y, width, height))
 
+    return label_data
+def display_label_info(image, label_text_path, yaml_path):
+    #image = cv2.imread(image_path)
+    label_data = get_label_data(label_text_path)
+
     text_height = 30  # Height of each label text
     text_margin = 20  # Margin between label texts and image border
     text_offset = text_margin
@@ -58,12 +36,13 @@ def display_label_info(image_path, label_text_path, yaml_path):
     for label in label_data:
         class_id, x, y, width, height = label
 
-        image_hieght, image_width, _ = image.shape
+        image_height, image_width, _ = image.shape
         left = int((x-width/2) * image_width)
-        top = int((y-height/2) * image_hieght)
+        top = int((y-height/2) * image_height)
         right = int((x+width/2) * image_width)
-        bottom = int((y+height/2) * image_hieght)
+        bottom = int((y+height/2) * image_height)
 
+        #print("left " + str(left) + ", top " + str(top), ", right " + str(right), ", bottom ", str(bottom))
         cv2.rectangle(image, (left, top), (right, bottom), (0, 255, 0), 2)
         label_text = f"Class ID: {class_id}"
 
@@ -78,15 +57,16 @@ def display_label_info(image_path, label_text_path, yaml_path):
 
         font_scale = 0.75
         font_color_white = (255, 255, 255)
-        font_color_black = (255, 255, 255)
+        font_color_black = (0, 0, 0)
+
         if class_lables[class_id] == "Green":
             cv2.putText(image, label_text, (left, top - 10), cv2.FONT_HERSHEY_SIMPLEX, font_scale, font_color_black, 2)
         else:
-            cv2.putText(image, label_text, (text_margin, text_offset), cv2.FONT_HERSHEY_SIMPLEX, font_scale, font_color_white, 2)
+            cv2.putText(image, label_text, (text_margin, text_offset), cv2.FONT_HERSHEY_SIMPLEX, font_scale, font_color_black, 2)
             text_offset += text_height
 
-    cv2.imshow('Img with info', image)
-    cv2.waitKey(0)
+    cv2.imshow('sample', image)
+    key = cv2.waitKey(0)
 
 def number_extract(filename):
     match = re.search(r'\d+', filename)
@@ -346,17 +326,18 @@ def update_label(image_path, label_txt_path, yaml_path):
 def view_label(img_path, label_path, yaml_path):
     update_label(img_path, label_path, yaml_path)
 
-image_path = r"E:/ML/Elevator Git/Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Images_Sample/Elevator_Sample/"
-yaml_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Sample\data.yaml"
-label_folder_path =  "E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Sample\Sample_Annotes\\"
-base_label_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Sample\Sample_Annotes\Base.txt"
 
-sample_img_path = r"E:/ML/Elevator Git/Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Images_Sample/Elevator_Sample/frame_1080.jpg"
-sample_label_path = "E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\yolov8\\annotations\\frame_1080.jpg.txt"
+if __name__== '__main__':
+    image_path = r"E:/ML/Elevator Git/Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Images_Sample/Elevator_Sample/"
+    yaml_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Sample\data.yaml"
+    label_folder_path =  "E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Sample\Sample_Annotes\\"
+    base_label_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Sample\Sample_Annotes\Base.txt"
 
-axis_unit = 0.05
+    sample_img_path = r"E:/ML/Elevator Git/Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Images_Sample/Elevator_Sample/frame_1080.jpg"
+    sample_label_path = "E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\yolov8\\annotations\\frame_1080.jpg.txt"
 
-#update_label(image_path, label_text_path, yaml_path)
+    axis_unit = 0.05
 
-read_all_img_from_folder(image_path, label_folder_path)
-#view_label(sample_img_path, sample_label_path, yaml_path)
+    update_label(image_path, label_text_path, yaml_path)
+    read_all_img_from_folder(image_path, label_folder_path)
+    view_label(sample_img_path, sample_label_path, yaml_path)

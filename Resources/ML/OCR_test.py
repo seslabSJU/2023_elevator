@@ -106,7 +106,7 @@ def OCR_Test(img):
     cv2.imshow('C', canny)
     key = cv2.waitKey(0)
 
-path = f'/Elevator Git/Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Images_Sample/sample.jpg'
+path = f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Sample\sample.jpg'
 path2 = f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Sample\Elevator_Sample'
 path3 = f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Real\Vid_No2_2023-06-30-15-12'
 extension_jpg = 'jpg'
