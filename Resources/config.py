@@ -7,7 +7,7 @@ class Config_Detection:
         'sample_folder_path': f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Real\Sample',
         'sample_file_path': f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Real\Vid_No3_2023-06-30-15-03\\frame_20130.jpg',
         'image_file_path': f'',
-        'label_txt_path': f"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\cv2\config\Base2.txt",
+        'label_txt_path': f"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\cv2\config\Base3.txt",
         'yaml_path': r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\cv2\config\data.yaml",
     }
     Detection_Range = {
@@ -79,8 +79,6 @@ class Config_Elevator_SW:
     Location_Weight = {
         'Open': 999,
         'Close': 999,
-        'Panel': 999,
-        'Human': 999,
         'B5': -5,
         'B4': -4,
         'B3': -3,
@@ -97,8 +95,10 @@ class Config_Elevator_SW:
         '9': 9,
         '10': 10,
         '11': 11,
-        '12': 12
+        '12': 12,
+        'Panel': 999
     }
+    Location_List = [999, 999, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 999]
     Lowest_Weight = -5
     Highest_Weight = 12
     Current_Floor = -1
@@ -106,9 +106,11 @@ class Config_Elevator_SW:
 
 class Config_Log:
     log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\logs.txt"
+    timelist_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\timelist.txt"
     sensor_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\sensors.txt"
     # extract_pattern = r": \[\['\w+', (?:True:False)\]\]"
     extract_pattern = r"\['(\w+)', (?:True|False)\]"
+
 
 
 class Config_Model:

@@ -1,4383 +1,992 @@
 Condition Changed at frame_20910.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True]]
-Condition Changed at frame_20940.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_20970.jpg
-Previous Condition was : [['5', True], ['7', False]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_21000.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_21150.jpg
-Previous Condition was : [['5', True], ['7', False]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_21180.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_21660.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 16.0s
 
 Condition Changed at frame_23070.jpg
 Previous Condition was : []
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 47.0s
+Latest Condition is : [8]
 
 Condition Changed at frame_23790.jpg
-Previous Condition was : [['B3', False], ['B5', False]]
+Previous Condition was : [8]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 24.0s
 
 Condition Changed at frame_25440.jpg
 Previous Condition was : []
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 55.0s
-
-Condition Changed at frame_25470.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_25620.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_25650.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_25680.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_25710.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_25980.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 9.0s
-
-Condition Changed at frame_26010.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [8]
 
 Condition Changed at frame_26190.jpg
-Previous Condition was : [['B3', False], ['B5', False]]
+Previous Condition was : [8]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 6.0s
 
 Condition Changed at frame_27270.jpg
 Previous Condition was : []
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 36.0s
-
-Condition Changed at frame_27300.jpg
-Previous Condition was : [['2', True], ['4', True]]
-Latest Condition is : [['10', True], ['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_27330.jpg
-Previous Condition was : [['10', False], ['2', True], ['4', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [-3]
 
 Condition Changed at frame_28170.jpg
-Previous Condition was : [['2', False], ['4', False]]
+Previous Condition was : [-3]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 28.0s
 
 Condition Changed at frame_29760.jpg
 Previous Condition was : []
-Latest Condition is : [['9', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 53.0s
+Latest Condition is : [5]
 
 Condition Changed at frame_30480.jpg
-Previous Condition was : [['9', False], ['B2', False]]
+Previous Condition was : [5]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 24.0s
 
 Condition Changed at frame_32340.jpg
 Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 62.0s
+Latest Condition is : [-1]
 
 Condition Changed at frame_33090.jpg
-Previous Condition was : [['4', False], ['6', False]]
+Previous Condition was : [-1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 25.0s
 
 Condition Changed at frame_33480.jpg
 Previous Condition was : []
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 13.0s
+Latest Condition is : [4]
 
 Condition Changed at frame_34020.jpg
-Previous Condition was : [['8', False], ['B1', False]]
+Previous Condition was : [4]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 18.0s
 
 Condition Changed at frame_35220.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 40.0s
-
-Condition Changed at frame_36000.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['10', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 26.0s
-
-Condition Changed at frame_36030.jpg
-Previous Condition was : [['10', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_36930.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['10', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 30.0s
-
-Condition Changed at frame_36960.jpg
-Previous Condition was : [['10', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_37470.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 17.0s
 
 Condition Changed at frame_38340.jpg
 Previous Condition was : []
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 29.0s
-
-Condition Changed at frame_38370.jpg
-Previous Condition was : [['B1', True], ['B3', True]]
-Latest Condition is : [['10', True], ['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_38400.jpg
-Previous Condition was : [['10', False], ['B1', True], ['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_38460.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_38490.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_38580.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_38610.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_38640.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_38670.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_38790.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_38820.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [6]
 
 Condition Changed at frame_39000.jpg
-Previous Condition was : [['B1', False], ['B3', False]]
+Previous Condition was : [6]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 6.0s
 
 Condition Changed at frame_41730.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 91.0s
-
-Condition Changed at frame_42420.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['10', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 23.0s
-
-Condition Changed at frame_42450.jpg
-Previous Condition was : [['10', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_43080.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 21.0s
 
 Condition Changed at frame_44070.jpg
 Previous Condition was : []
-Latest Condition is : [['9', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 33.0s
+Latest Condition is : [5]
 
 Condition Changed at frame_44100.jpg
-Previous Condition was : [['9', False], ['B2', False]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [5]
+Latest Condition is : [4]
 
 Condition Changed at frame_44130.jpg
-Previous Condition was : [['8', True], ['B1', True]]
-Latest Condition is : [['1', True], ['8', True], ['9', True], ['B1', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [4]
+Latest Condition is : [4, 5]
 
 Condition Changed at frame_44160.jpg
-Previous Condition was : [['1', False], ['8', False], ['9', False], ['B1', False], ['B2', False]]
-Latest Condition is : [['10', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [4, 5]
+Latest Condition is : []
 
 Condition Changed at frame_44190.jpg
-Previous Condition was : [['10', True]]
-Latest Condition is : [['10', True], ['8', True], ['9', True], ['B1', True], ['B2', True], ['B4', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [5, 7]
 
 Condition Changed at frame_44220.jpg
-Previous Condition was : [['10', False], ['8', True], ['9', True], ['B1', True], ['B2', True], ['B4', True]]
-Latest Condition is : [['8', True], ['9', True], ['B1', True], ['B2', True], ['B4', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [5, 7]
+Latest Condition is : [4, 5, 7]
 
 Condition Changed at frame_44250.jpg
-Previous Condition was : [['8', True], ['9', True], ['B1', False], ['B2', True], ['B4', False]]
-Latest Condition is : [['8', True], ['9', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [4, 5, 7]
+Latest Condition is : []
 
 Condition Changed at frame_44280.jpg
-Previous Condition was : [['8', True], ['9', True], ['B2', True]]
-Latest Condition is : [['8', True], ['9', True], ['B1', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [5]
 
 Condition Changed at frame_44340.jpg
-Previous Condition was : [['8', True], ['9', True], ['B1', True], ['B2', True]]
-Latest Condition is : [['8', True], ['9', True], ['B1', True], ['B2', True], ['B4', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : [5]
+Latest Condition is : [4, 5]
+
+Condition Changed at frame_44430.jpg
+Previous Condition was : [4, 5]
+Latest Condition is : [4, 5, 7]
 
 Condition Changed at frame_44730.jpg
-Previous Condition was : [['8', False], ['9', True], ['B1', False], ['B2', True], ['B4', True]]
-Latest Condition is : [['9', True], ['B2', True], ['B4', True]]
-Interval Between Previous Conditional Change is : 13.0s
+Previous Condition was : [4, 5, 7]
+Latest Condition is : [5, 7]
 
 Condition Changed at frame_45480.jpg
-Previous Condition was : [['9', False], ['B2', True], ['B4', True]]
-Latest Condition is : [['B2', True], ['B4', True]]
-Interval Between Previous Conditional Change is : 25.0s
-
-Condition Changed at frame_45600.jpg
-Previous Condition was : [['B2', False], ['B4', True]]
-Latest Condition is : [['B4', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_45630.jpg
-Previous Condition was : [['B4', True]]
-Latest Condition is : [['B2', True], ['B4', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [5, 7]
+Latest Condition is : [7]
 
 Condition Changed at frame_46260.jpg
-Previous Condition was : [['B2', False], ['B4', False]]
+Previous Condition was : [7]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 21.0s
 
 Condition Changed at frame_49470.jpg
 Previous Condition was : []
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 107.0s
+Latest Condition is : [-3]
 
 Condition Changed at frame_50010.jpg
-Previous Condition was : [['2', False], ['4', False]]
+Previous Condition was : [-3]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 18.0s
 
 Condition Changed at frame_50190.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 6.0s
-
-Condition Changed at frame_50220.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['10', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_50250.jpg
-Previous Condition was : [['10', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_50280.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['10', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_50310.jpg
-Previous Condition was : [['10', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_50820.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 17.0s
 
 Condition Changed at frame_52290.jpg
 Previous Condition was : []
-Latest Condition is : [['9', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 49.0s
+Latest Condition is : [5]
 
 Condition Changed at frame_52770.jpg
-Previous Condition was : [['9', False], ['B2', False]]
+Previous Condition was : [5]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 16.0s
 
 Condition Changed at frame_54000.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 41.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_54840.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 28.0s
 
 Condition Changed at frame_58020.jpg
 Previous Condition was : []
-Latest Condition is : [['B2', True], ['B4', True]]
-Interval Between Previous Conditional Change is : 106.0s
-
-Condition Changed at frame_58410.jpg
-Previous Condition was : [['B2', False], ['B4', True]]
-Latest Condition is : [['B4', True]]
-Interval Between Previous Conditional Change is : 13.0s
-
-Condition Changed at frame_58440.jpg
-Previous Condition was : [['B4', True]]
-Latest Condition is : [['B2', True], ['B4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_58470.jpg
-Previous Condition was : [['B2', False], ['B4', True]]
-Latest Condition is : [['B4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_58500.jpg
-Previous Condition was : [['B4', True]]
-Latest Condition is : [['B2', True], ['B4', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [7]
 
 Condition Changed at frame_58740.jpg
-Previous Condition was : [['B2', False], ['B4', False]]
+Previous Condition was : [7]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 8.0s
 
 Condition Changed at frame_60630.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 63.0s
-
-Condition Changed at frame_60660.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['1', True], ['10', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_60690.jpg
-Previous Condition was : [['1', False], ['10', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_61290.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 20.0s
-
-Condition Changed at frame_62580.jpg
-Previous Condition was : []
-Latest Condition is : [['7', True]]
-Interval Between Previous Conditional Change is : 43.0s
 
 Condition Changed at frame_62610.jpg
-Previous Condition was : [['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [1]
 
 Condition Changed at frame_63270.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 22.0s
 
 Condition Changed at frame_63450.jpg
 Previous Condition was : []
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 6.0s
-
-Condition Changed at frame_63480.jpg
-Previous Condition was : [['8', True], ['B1', True]]
-Latest Condition is : [['1', True], ['10', True], ['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_63540.jpg
-Previous Condition was : [['1', False], ['10', False], ['8', True], ['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Latest Condition is : [4]
 
 Condition Changed at frame_64080.jpg
-Previous Condition was : [['8', False], ['B1', False]]
+Previous Condition was : [4]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 18.0s
 
 Condition Changed at frame_65070.jpg
 Previous Condition was : []
-Latest Condition is : [['1', True], ['10', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 33.0s
-
-Condition Changed at frame_65100.jpg
-Previous Condition was : [['1', False], ['10', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_65190.jpg
-Previous Condition was : [['5', False], ['7', True]]
-Latest Condition is : [['7', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_65220.jpg
-Previous Condition was : [['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_65610.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 13.0s
-
-Condition Changed at frame_66210.jpg
-Previous Condition was : []
-Latest Condition is : [['1', True], ['B4', True], ['Close', True]]
-Interval Between Previous Conditional Change is : 20.0s
-
-Condition Changed at frame_66270.jpg
-Previous Condition was : [['1', True], ['B4', False], ['Close', True]]
-Latest Condition is : [['1', True], ['Close', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_66300.jpg
-Previous Condition was : [['1', False], ['Close', False]]
-Latest Condition is : [['10', True]]
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_66330.jpg
-Previous Condition was : [['10', False]]
-Latest Condition is : [['Close', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [9]
 
-Condition Changed at frame_66510.jpg
-Previous Condition was : [['Close', True]]
-Latest Condition is : [['B4', True], ['Close', True]]
-Interval Between Previous Conditional Change is : 6.0s
+Condition Changed at frame_66360.jpg
+Previous Condition was : [9]
+Latest Condition is : []
+
+Condition Changed at frame_66540.jpg
+Previous Condition was : []
+Latest Condition is : [9]
 
 Condition Changed at frame_66570.jpg
-Previous Condition was : [['B4', False], ['Close', True]]
-Latest Condition is : [['Close', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : [9]
+Latest Condition is : []
 
-Condition Changed at frame_66990.jpg
-Previous Condition was : [['Close', True]]
-Latest Condition is : [['B4', True], ['Close', True]]
-Interval Between Previous Conditional Change is : 14.0s
+Condition Changed at frame_66600.jpg
+Previous Condition was : []
+Latest Condition is : [9]
+
+Condition Changed at frame_66660.jpg
+Previous Condition was : [9]
+Latest Condition is : []
+
+Condition Changed at frame_66900.jpg
+Previous Condition was : []
+Latest Condition is : [9]
+
+Condition Changed at frame_66930.jpg
+Previous Condition was : [9]
+Latest Condition is : []
 
 Condition Changed at frame_67020.jpg
-Previous Condition was : [['B4', False], ['Close', True]]
-Latest Condition is : [['Close', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [9]
+
+Condition Changed at frame_67050.jpg
+Previous Condition was : [9]
+Latest Condition is : []
+
+Condition Changed at frame_67080.jpg
+Previous Condition was : []
+Latest Condition is : [9]
 
 Condition Changed at frame_67110.jpg
-Previous Condition was : [['Close', False]]
+Previous Condition was : [9]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 3.0s
 
 Condition Changed at frame_71400.jpg
 Previous Condition was : []
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 143.0s
+Latest Condition is : [-3]
 
 Condition Changed at frame_71850.jpg
-Previous Condition was : [['2', False], ['4', False]]
+Previous Condition was : [-3]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 15.0s
 
 Condition Changed at frame_72480.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 21.0s
-
-Condition Changed at frame_72570.jpg
-Previous Condition was : [['5', False], ['7', True]]
-Latest Condition is : [['7', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_72600.jpg
-Previous Condition was : [['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_73020.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 14.0s
 
 Condition Changed at frame_75090.jpg
 Previous Condition was : []
-Latest Condition is : [['9', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 69.0s
+Latest Condition is : [5]
 
 Condition Changed at frame_75540.jpg
-Previous Condition was : [['9', False], ['B2', False]]
+Previous Condition was : [5]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 15.0s
 
 Condition Changed at frame_78060.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 84.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_78540.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 16.0s
 
 Condition Changed at frame_82710.jpg
 Previous Condition was : []
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 139.0s
-
-Condition Changed at frame_82740.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [8]
 
 Condition Changed at frame_83490.jpg
-Previous Condition was : [['B3', False], ['B5', False]]
+Previous Condition was : [8]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 25.0s
 
 Condition Changed at frame_83820.jpg
 Previous Condition was : []
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 11.0s
+Latest Condition is : [4]
 
 Condition Changed at frame_84360.jpg
-Previous Condition was : [['8', False], ['B1', False]]
+Previous Condition was : [4]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 18.0s
 
 Condition Changed at frame_86550.jpg
 Previous Condition was : []
-Latest Condition is : [['1', True], ['10', True], ['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 73.0s
-
-Condition Changed at frame_86580.jpg
-Previous Condition was : [['1', False], ['10', False], ['4', True], ['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [-1]
 
 Condition Changed at frame_87120.jpg
-Previous Condition was : [['4', False], ['6', False]]
+Previous Condition was : [-1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 18.0s
 
 Condition Changed at frame_89520.jpg
 Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 80.0s
+Latest Condition is : [-1]
 
 Condition Changed at frame_90240.jpg
-Previous Condition was : [['4', False], ['6', False]]
+Previous Condition was : [-1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 24.0s
 
 Condition Changed at frame_90630.jpg
 Previous Condition was : []
-Latest Condition is : [['7', True], ['9', True]]
-Interval Between Previous Conditional Change is : 13.0s
-
-Condition Changed at frame_91020.jpg
-Previous Condition was : [['7', False], ['9', True]]
-Latest Condition is : [['9', True]]
-Interval Between Previous Conditional Change is : 13.0s
-
-Condition Changed at frame_91050.jpg
-Previous Condition was : [['9', True]]
-Latest Condition is : [['7', True], ['9', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [3]
 
 Condition Changed at frame_91200.jpg
-Previous Condition was : [['7', False], ['9', False]]
+Previous Condition was : [3]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 5.0s
 
 Condition Changed at frame_94950.jpg
 Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 125.0s
+Latest Condition is : [-1]
 
 Condition Changed at frame_95760.jpg
-Previous Condition was : [['4', False], ['6', False]]
+Previous Condition was : [-1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 27.0s
 
 Condition Changed at frame_98160.jpg
 Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 80.0s
+Latest Condition is : [-1]
 
 Condition Changed at frame_98190.jpg
-Previous Condition was : [['4', True], ['6', True]]
-Latest Condition is : [['12', True], ['3', True], ['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [-1]
+Latest Condition is : [-4, -1]
 
-Condition Changed at frame_98310.jpg
-Previous Condition was : [['12', False], ['3', False], ['4', True], ['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 4.0s
+Condition Changed at frame_98280.jpg
+Previous Condition was : [-4, -1]
+Latest Condition is : [-1]
 
 Condition Changed at frame_99090.jpg
-Previous Condition was : [['4', False], ['6', False]]
+Previous Condition was : [-1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 26.0s
 
 Condition Changed at frame_100470.jpg
 Previous Condition was : []
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 46.0s
-
-Condition Changed at frame_100500.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_100560.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Latest Condition is : [8]
 
 Condition Changed at frame_100620.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : [8]
+Latest Condition is : []
 
 Condition Changed at frame_100650.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [8]
 
 Condition Changed at frame_100680.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [8]
+Latest Condition is : []
+
+Condition Changed at frame_100770.jpg
+Previous Condition was : []
+Latest Condition is : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+Condition Changed at frame_100800.jpg
+Previous Condition was : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Latest Condition is : []
 
 Condition Changed at frame_100830.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 5.0s
+Previous Condition was : []
+Latest Condition is : [8]
 
 Condition Changed at frame_100860.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [8]
+Latest Condition is : []
+
+Condition Changed at frame_101100.jpg
+Previous Condition was : []
+Latest Condition is : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 Condition Changed at frame_101130.jpg
-Previous Condition was : [['B5', False]]
+Previous Condition was : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 9.0s
 
 Condition Changed at frame_101400.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 9.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_101430.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True], ['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [1]
+Latest Condition is : [1, 4]
 
 Condition Changed at frame_101460.jpg
-Previous Condition was : [['5', False], ['7', False], ['8', True], ['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [1, 4]
+Latest Condition is : [4]
 
 Condition Changed at frame_102000.jpg
-Previous Condition was : [['8', False], ['B1', False]]
+Previous Condition was : [4]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 18.0s
 
 Condition Changed at frame_103140.jpg
 Previous Condition was : []
-Latest Condition is : [['12', True], ['3', True]]
-Interval Between Previous Conditional Change is : 38.0s
-
-Condition Changed at frame_103620.jpg
-Previous Condition was : [['12', False], ['3', True]]
-Latest Condition is : [['3', True]]
-Interval Between Previous Conditional Change is : 16.0s
-
-Condition Changed at frame_103650.jpg
-Previous Condition was : [['3', True]]
-Latest Condition is : [['12', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_103680.jpg
-Previous Condition was : [['12', False], ['3', True]]
-Latest Condition is : [['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_103710.jpg
-Previous Condition was : [['3', True]]
-Latest Condition is : [['12', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [-4]
 
 Condition Changed at frame_103740.jpg
-Previous Condition was : [['12', False], ['3', False]]
+Previous Condition was : [-4]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_104850.jpg
 Previous Condition was : []
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 37.0s
-
-Condition Changed at frame_104880.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_104940.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_105000.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_105030.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [8]
 
 Condition Changed at frame_105270.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 8.0s
+Previous Condition was : [8]
+Latest Condition is : []
 
 Condition Changed at frame_105330.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : []
+Latest Condition is : [8]
 
 Condition Changed at frame_105660.jpg
-Previous Condition was : [['B3', False], ['B5', False]]
+Previous Condition was : [8]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 11.0s
 
 Condition Changed at frame_107070.jpg
 Previous Condition was : []
-Latest Condition is : [['7', True], ['9', True]]
-Interval Between Previous Conditional Change is : 47.0s
-
-Condition Changed at frame_107550.jpg
-Previous Condition was : [['7', False], ['9', True]]
-Latest Condition is : [['9', True]]
-Interval Between Previous Conditional Change is : 16.0s
-
-Condition Changed at frame_107580.jpg
-Previous Condition was : [['9', True]]
-Latest Condition is : [['7', True], ['9', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [3]
 
 Condition Changed at frame_107640.jpg
-Previous Condition was : [['7', False], ['9', False]]
+Previous Condition was : [3]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 2.0s
 
 Condition Changed at frame_109020.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 46.0s
-
-Condition Changed at frame_109320.jpg
-Previous Condition was : [['5', False], ['7', True]]
-Latest Condition is : [['7', True]]
-Interval Between Previous Conditional Change is : 10.0s
-
-Condition Changed at frame_109350.jpg
-Previous Condition was : [['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_109830.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 16.0s
 
 Condition Changed at frame_110940.jpg
 Previous Condition was : []
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 37.0s
+Latest Condition is : [-3]
 
 Condition Changed at frame_111450.jpg
-Previous Condition was : [['2', False], ['4', False]]
+Previous Condition was : [-3]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 17.0s
 
 Condition Changed at frame_116610.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 172.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_117240.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 21.0s
 
 Condition Changed at frame_118680.jpg
 Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 48.0s
-
-Condition Changed at frame_119370.jpg
-Previous Condition was : [['4', True], ['6', True]]
-Latest Condition is : [['1', True], ['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 23.0s
-
-Condition Changed at frame_119520.jpg
-Previous Condition was : [['1', False], ['4', True], ['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 5.0s
+Latest Condition is : [-1]
 
 Condition Changed at frame_119580.jpg
-Previous Condition was : [['4', True], ['6', True]]
-Latest Condition is : [['3', True], ['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : [-1]
+Latest Condition is : [-2, -1]
 
 Condition Changed at frame_120180.jpg
-Previous Condition was : [['3', True], ['4', False], ['5', True], ['6', False]]
-Latest Condition is : [['3', True], ['5', True]]
-Interval Between Previous Conditional Change is : 20.0s
-
-Condition Changed at frame_120390.jpg
-Previous Condition was : [['3', True], ['5', True]]
-Latest Condition is : [['1', True], ['10', True], ['3', True], ['5', True]]
-Interval Between Previous Conditional Change is : 7.0s
-
-Condition Changed at frame_120420.jpg
-Previous Condition was : [['1', False], ['10', False], ['3', True], ['5', True]]
-Latest Condition is : [['3', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [-2, -1]
+Latest Condition is : [-2]
 
 Condition Changed at frame_120870.jpg
-Previous Condition was : [['3', False], ['5', False]]
+Previous Condition was : [-2]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 15.0s
 
 Condition Changed at frame_125220.jpg
 Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 145.0s
+Latest Condition is : [-1]
 
 Condition Changed at frame_126060.jpg
-Previous Condition was : [['4', False], ['6', False]]
+Previous Condition was : [-1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 28.0s
+
+Condition Changed at frame_128250.jpg
+Previous Condition was : []
+Latest Condition is : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+Condition Changed at frame_128280.jpg
+Previous Condition was : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Latest Condition is : []
 
 Condition Changed at frame_132030.jpg
 Previous Condition was : []
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 199.0s
-
-Condition Changed at frame_132480.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 15.0s
-
-Condition Changed at frame_132510.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_132780.jpg
-Previous Condition was : [['8', True], ['B1', True]]
-Latest Condition is : [['1', True], ['10', True], ['12', True], ['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 9.0s
-
-Condition Changed at frame_132840.jpg
-Previous Condition was : [['1', False], ['10', False], ['12', False], ['8', True], ['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Latest Condition is : [4]
 
 Condition Changed at frame_133230.jpg
-Previous Condition was : [['8', False], ['B1', False]]
+Previous Condition was : [4]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 13.0s
 
 Condition Changed at frame_135570.jpg
 Previous Condition was : []
-Latest Condition is : [['B1', True], ['B4', True]]
-Interval Between Previous Conditional Change is : 78.0s
+Latest Condition is : [7]
 
 Condition Changed at frame_135630.jpg
-Previous Condition was : [['B1', False], ['B4', True]]
-Latest Condition is : [['B4', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : [7]
+Latest Condition is : []
 
 Condition Changed at frame_135660.jpg
-Previous Condition was : [['B4', True]]
-Latest Condition is : [['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_135690.jpg
-Previous Condition was : [['B4', True], ['B5', False]]
-Latest Condition is : [['B2', True], ['B3', True], ['B4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_135720.jpg
-Previous Condition was : [['B2', True], ['B3', True], ['B4', True]]
-Latest Condition is : [['B2', True], ['B3', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_135750.jpg
-Previous Condition was : [['B2', False], ['B3', False], ['B4', True], ['B5', True]]
-Latest Condition is : [['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_135780.jpg
-Previous Condition was : [['B4', True], ['B5', False]]
-Latest Condition is : [['B2', True], ['B4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_135810.jpg
-Previous Condition was : [['B2', False], ['B4', True]]
-Latest Condition is : [['B1', True], ['B3', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_135840.jpg
-Previous Condition was : [['B1', True], ['B3', False], ['B4', True], ['B5', True]]
-Latest Condition is : [['B1', True], ['B2', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_135870.jpg
-Previous Condition was : [['B1', True], ['B2', False], ['B4', True], ['B5', True]]
-Latest Condition is : [['B1', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_135900.jpg
-Previous Condition was : [['B1', True], ['B4', True], ['B5', True]]
-Latest Condition is : [['B1', True], ['B2', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_135930.jpg
-Previous Condition was : [['B1', True], ['B2', False], ['B4', True], ['B5', True]]
-Latest Condition is : [['B1', True], ['B3', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_135960.jpg
-Previous Condition was : [['B1', True], ['B3', False], ['B4', True], ['B5', True]]
-Latest Condition is : [['B1', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_135990.jpg
-Previous Condition was : [['B1', False], ['B4', True], ['B5', True]]
-Latest Condition is : [['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_136020.jpg
-Previous Condition was : [['B4', True], ['B5', True]]
-Latest Condition is : [['B2', True], ['B3', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_136050.jpg
-Previous Condition was : [['B2', False], ['B3', False], ['B4', True], ['B5', True]]
-Latest Condition is : [['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_136110.jpg
-Previous Condition was : [['B4', True], ['B5', True]]
-Latest Condition is : [['B2', True], ['B3', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_136140.jpg
-Previous Condition was : [['B2', True], ['B3', False], ['B4', True], ['B5', True]]
-Latest Condition is : [['B2', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_136170.jpg
-Previous Condition was : [['B2', True], ['B4', True], ['B5', True]]
-Latest Condition is : [['B2', True], ['B3', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_136200.jpg
-Previous Condition was : [['B2', False], ['B3', True], ['B4', True], ['B5', True]]
-Latest Condition is : [['B3', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_136230.jpg
-Previous Condition was : [['B3', True], ['B4', True], ['B5', True]]
-Latest Condition is : [['B1', True], ['B3', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_136260.jpg
-Previous Condition was : [['B1', True], ['B3', False], ['B4', True], ['B5', True]]
-Latest Condition is : [['B1', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_136290.jpg
-Previous Condition was : [['B1', True], ['B4', True], ['B5', True]]
-Latest Condition is : [['B1', True], ['B3', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_136320.jpg
-Previous Condition was : [['B1', True], ['B3', True], ['B4', True], ['B5', True]]
-Latest Condition is : [['B1', True], ['B2', True], ['B3', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_136350.jpg
-Previous Condition was : [['B1', True], ['B2', False], ['B3', True], ['B4', True], ['B5', True]]
-Latest Condition is : [['B1', True], ['B3', True], ['B4', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [7]
 
 Condition Changed at frame_136410.jpg
-Previous Condition was : [['B1', False], ['B3', True], ['B4', False], ['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : [7]
+Latest Condition is : [8]
 
 Condition Changed at frame_136470.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : [8]
+Latest Condition is : []
 
-Condition Changed at frame_136620.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 5.0s
+Condition Changed at frame_136590.jpg
+Previous Condition was : []
+Latest Condition is : [8]
 
-Condition Changed at frame_136680.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_136710.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_136740.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_136800.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_136860.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Condition Changed at frame_136890.jpg
+Previous Condition was : [8]
+Latest Condition is : []
 
 Condition Changed at frame_137010.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 5.0s
+Previous Condition was : []
+Latest Condition is : [8]
 
 Condition Changed at frame_137100.jpg
-Previous Condition was : [['B3', False], ['B5', False]]
+Previous Condition was : [8]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 3.0s
 
 Condition Changed at frame_137460.jpg
 Previous Condition was : []
-Latest Condition is : [['7', True]]
-Interval Between Previous Conditional Change is : 12.0s
-
-Condition Changed at frame_137520.jpg
-Previous Condition was : [['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_137550.jpg
-Previous Condition was : [['5', False], ['7', True]]
-Latest Condition is : [['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_137580.jpg
-Previous Condition was : [['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_137640.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_137700.jpg
-Previous Condition was : [['4', False], ['5', False], ['7', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_137730.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_137760.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_137790.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_137820.jpg
-Previous Condition was : [['4', False], ['5', False], ['7', True]]
-Latest Condition is : [['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_137850.jpg
-Previous Condition was : [['7', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_137880.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_137910.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_137940.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_137970.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_138000.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', False]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_138060.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_138090.jpg
-Previous Condition was : [['5', False], ['7', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_138120.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_138150.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_138180.jpg
-Previous Condition was : [['5', False], ['7', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_138960.jpg
 Previous Condition was : []
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 26.0s
+Latest Condition is : [8]
 
 Condition Changed at frame_139230.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 9.0s
-
-Condition Changed at frame_139260.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_139290.jpg
-Previous Condition was : [['B5', False]]
+Previous Condition was : [8]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
-Condition Changed at frame_139320.jpg
+Condition Changed at frame_139350.jpg
 Previous Condition was : []
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_139470.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_139500.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_139530.jpg
-Previous Condition was : [['B5', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_139560.jpg
-Previous Condition was : []
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [8]
 
 Condition Changed at frame_139590.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [8]
+Latest Condition is : []
 
 Condition Changed at frame_139620.jpg
-Previous Condition was : [['B5', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [8]
 
 Condition Changed at frame_139650.jpg
-Previous Condition was : []
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_139680.jpg
-Previous Condition was : [['B5', False]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_139710.jpg
-Previous Condition was : [['B3', False]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_139740.jpg
-Previous Condition was : [['B5', False]]
+Previous Condition was : [8]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_139770.jpg
 Previous Condition was : []
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_139800.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [8]
 
 Condition Changed at frame_139830.jpg
-Previous Condition was : [['B5', False]]
+Previous Condition was : [8]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_141990.jpg
 Previous Condition was : []
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 72.0s
+Latest Condition is : [8]
 
 Condition Changed at frame_142020.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['1', True], ['12', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [8]
+Latest Condition is : []
 
 Condition Changed at frame_142050.jpg
-Previous Condition was : [['1', False], ['12', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_142080.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_142110.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_142140.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_142200.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_142230.jpg
-Previous Condition was : [['B5', False]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [8]
 
 Condition Changed at frame_142260.jpg
-Previous Condition was : [['B3', False]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [8]
+Latest Condition is : []
 
 Condition Changed at frame_142290.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_142320.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_142350.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_142410.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_142500.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 3.0s
+Previous Condition was : []
+Latest Condition is : [8]
 
 Condition Changed at frame_142650.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 5.0s
+Previous Condition was : [8]
+Latest Condition is : []
 
 Condition Changed at frame_142710.jpg
-Previous Condition was : [['B5', False]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : []
+Latest Condition is : [8]
 
 Condition Changed at frame_142740.jpg
-Previous Condition was : [['B3', False]]
+Previous Condition was : [8]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_143100.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 12.0s
-
-Condition Changed at frame_143160.jpg
-Previous Condition was : [['5', False]]
-Latest Condition is : [['7', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_143190.jpg
-Previous Condition was : [['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_143280.jpg
-Previous Condition was : [['5', False], ['7', True]]
-Latest Condition is : [['7', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_143310.jpg
-Previous Condition was : [['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_143370.jpg
-Previous Condition was : [['5', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_143430.jpg
-Previous Condition was : [['4', False], ['5', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_143460.jpg
-Previous Condition was : [['5', True], ['7', False]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_143490.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_143580.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_143610.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', False]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_143640.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_143760.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_143790.jpg
-Previous Condition was : [['4', True], ['5', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_143820.jpg
-Previous Condition was : [['4', False], ['5', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_145260.jpg
 Previous Condition was : []
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 48.0s
+Latest Condition is : [-3]
 
 Condition Changed at frame_145800.jpg
-Previous Condition was : [['2', False], ['4', False]]
+Previous Condition was : [-3]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 18.0s
 
 Condition Changed at frame_146250.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 15.0s
-
-Condition Changed at frame_146280.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['1', True], ['10', True], ['12', True], ['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_146310.jpg
-Previous Condition was : [['1', False], ['10', False], ['12', False], ['4', True], ['5', True], ['7', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_146340.jpg
-Previous Condition was : [['4', True], ['5', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_146370.jpg
-Previous Condition was : [['4', False], ['5', True]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_146400.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_146460.jpg
-Previous Condition was : [['5', False], ['7', True]]
-Latest Condition is : [['7', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_146490.jpg
-Previous Condition was : [['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_146520.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_146550.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_146610.jpg
-Previous Condition was : [['5', False], ['7', True]]
-Latest Condition is : [['4', True], ['7', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_146640.jpg
-Previous Condition was : [['4', False], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_146730.jpg
-Previous Condition was : [['5', True], ['7', False]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 3.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_146820.jpg
-Previous Condition was : [['5', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 3.0s
 
 Condition Changed at frame_149520.jpg
 Previous Condition was : []
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 90.0s
-
-Condition Changed at frame_149550.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_149610.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_149730.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_149790.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_149820.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_149880.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_149910.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_149940.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_149970.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_150060.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_150150.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_150180.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [6]
 
 Condition Changed at frame_150210.jpg
-Previous Condition was : [['B1', False], ['B3', False]]
+Previous Condition was : [6]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_153030.jpg
 Previous Condition was : []
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 94.0s
-
-Condition Changed at frame_153060.jpg
-Previous Condition was : [['8', True], ['B1', True]]
-Latest Condition is : [['1', True], ['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_153090.jpg
-Previous Condition was : [['1', False], ['8', True], ['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_153510.jpg
-Previous Condition was : [['8', True], ['B1', False]]
-Latest Condition is : [['8', True]]
-Interval Between Previous Conditional Change is : 14.0s
-
-Condition Changed at frame_153540.jpg
-Previous Condition was : [['8', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [4]
 
 Condition Changed at frame_153690.jpg
-Previous Condition was : [['8', False], ['B1', False]]
+Previous Condition was : [4]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 5.0s
 
 Condition Changed at frame_160050.jpg
 Previous Condition was : []
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 212.0s
+Latest Condition is : [-5]
 
 Condition Changed at frame_160080.jpg
-Previous Condition was : [['11', False], ['2', False]]
+Previous Condition was : [-5]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_160110.jpg
 Previous Condition was : []
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [-3]
 
 Condition Changed at frame_160620.jpg
-Previous Condition was : [['2', False], ['4', False]]
+Previous Condition was : [-3]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 17.0s
 
 Condition Changed at frame_161520.jpg
 Previous Condition was : []
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 30.0s
-
-Condition Changed at frame_161610.jpg
-Previous Condition was : [['5', False], ['7', True]]
-Latest Condition is : [['4', True], ['7', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_161640.jpg
-Previous Condition was : [['4', True], ['7', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_161670.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', False]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_161700.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_161730.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_161760.jpg
-Previous Condition was : [['5', False], ['7', True]]
-Latest Condition is : [['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_161820.jpg
-Previous Condition was : [['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_161880.jpg
-Previous Condition was : [['5', True], ['7', False]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_161910.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_162000.jpg
-Previous Condition was : [['5', False], ['7', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_162060.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_162090.jpg
-Previous Condition was : [['4', False], ['5', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
-Condition Changed at frame_163920.jpg
+Condition Changed at frame_163950.jpg
 Previous Condition was : []
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 61.0s
+Latest Condition is : [8]
 
-Condition Changed at frame_164010.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 3.0s
+Condition Changed at frame_164070.jpg
+Previous Condition was : [8]
+Latest Condition is : []
 
 Condition Changed at frame_164130.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 4.0s
+Previous Condition was : []
+Latest Condition is : [8]
 
-Condition Changed at frame_164160.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Condition Changed at frame_164340.jpg
+Previous Condition was : [8]
+Latest Condition is : []
 
-Condition Changed at frame_164190.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Condition Changed at frame_164370.jpg
+Previous Condition was : []
+Latest Condition is : [8]
 
-Condition Changed at frame_164280.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 3.0s
+Condition Changed at frame_164430.jpg
+Previous Condition was : [8]
+Latest Condition is : []
 
-Condition Changed at frame_164310.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Condition Changed at frame_164460.jpg
+Previous Condition was : []
+Latest Condition is : [8]
 
-Condition Changed at frame_164400.jpg
-Previous Condition was : [['B5', True]]
-Latest Condition is : [['B3', True], ['B5', True]]
-Interval Between Previous Conditional Change is : 3.0s
+Condition Changed at frame_164490.jpg
+Previous Condition was : [8]
+Latest Condition is : []
 
 Condition Changed at frame_164520.jpg
-Previous Condition was : [['B3', False], ['B5', True]]
-Latest Condition is : [['B5', True]]
-Interval Between Previous Conditional Change is : 4.0s
+Previous Condition was : []
+Latest Condition is : [8]
 
 Condition Changed at frame_164550.jpg
-Previous Condition was : [['B5', False]]
+Previous Condition was : [8]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_167430.jpg
 Previous Condition was : []
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 96.0s
+Latest Condition is : [4]
 
 Condition Changed at frame_167970.jpg
-Previous Condition was : [['8', False], ['B1', False]]
+Previous Condition was : [4]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 18.0s
 
 Condition Changed at frame_169710.jpg
 Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 58.0s
-
-Condition Changed at frame_169770.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_169800.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_169830.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_169860.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_169920.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_169950.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_169980.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_170280.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 10.0s
-
-Condition Changed at frame_170310.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_170340.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_170370.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_170430.jpg
-Previous Condition was : [['4', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_170460.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [-1]
 
 Condition Changed at frame_170490.jpg
-Previous Condition was : [['4', False]]
+Previous Condition was : [-1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_171810.jpg
 Previous Condition was : []
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 44.0s
+Latest Condition is : [6]
 
-Condition Changed at frame_171900.jpg
-Previous Condition was : [['B1', True], ['B3', True]]
-Latest Condition is : [['8', True], ['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_172050.jpg
-Previous Condition was : [['8', True], ['B1', False], ['B3', True]]
-Latest Condition is : [['8', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_172080.jpg
-Previous Condition was : [['8', True], ['B3', True]]
-Latest Condition is : [['8', True], ['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_172230.jpg
-Previous Condition was : [['8', True], ['B1', False], ['B3', True]]
-Latest Condition is : [['8', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_172260.jpg
-Previous Condition was : [['8', True], ['B3', True]]
-Latest Condition is : [['8', True], ['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Condition Changed at frame_171870.jpg
+Previous Condition was : [6]
+Latest Condition is : [4, 6]
 
 Condition Changed at frame_172410.jpg
-Previous Condition was : [['8', False], ['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_172620.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 7.0s
-
-Condition Changed at frame_172650.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_172740.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_172770.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_172890.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_172950.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_173040.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_173100.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_173160.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_173190.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [4, 6]
+Latest Condition is : [6]
 
 Condition Changed at frame_173220.jpg
-Previous Condition was : [['B3', False]]
+Previous Condition was : [6]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_174300.jpg
 Previous Condition was : []
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 36.0s
-
-Condition Changed at frame_174330.jpg
-Previous Condition was : [['4', False], ['5', True]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174360.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174390.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174420.jpg
-Previous Condition was : [['5', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174450.jpg
-Previous Condition was : [['4', False], ['5', True]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174480.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174510.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174600.jpg
-Previous Condition was : [['5', True], ['7', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_174630.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', False]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174660.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174750.jpg
-Previous Condition was : [['4', True], ['5', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_174780.jpg
-Previous Condition was : [['4', False], ['5', True]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174810.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174840.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174870.jpg
-Previous Condition was : [['5', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174900.jpg
-Previous Condition was : [['4', True], ['5', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_174960.jpg
-Previous Condition was : [['4', False], ['5', True], ['7', False]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_174990.jpg
-Previous Condition was : [['5', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_175050.jpg
-Previous Condition was : [['4', True], ['5', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_175080.jpg
-Previous Condition was : [['4', True], ['5', False]]
-Latest Condition is : [['10', True], ['4', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_175110.jpg
-Previous Condition was : [['10', False], ['4', False], ['7', True]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_175170.jpg
-Previous Condition was : [['5', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_175230.jpg
-Previous Condition was : [['4', True], ['5', True], ['6', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_175260.jpg
-Previous Condition was : [['4', True], ['5', False]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_175290.jpg
-Previous Condition was : [['4', True], ['6', True]]
-Latest Condition is : [['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_175320.jpg
-Previous Condition was : [['4', True], ['5', False], ['6', True]]
-Latest Condition is : [['4', True], ['6', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_175350.jpg
-Previous Condition was : [['4', True], ['6', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_175380.jpg
-Previous Condition was : [['4', True], ['5', False], ['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_175410.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [1]
 
 Condition Changed at frame_175620.jpg
-Previous Condition was : [['4', False], ['5', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 7.0s
-
-Condition Changed at frame_176670.jpg
-Previous Condition was : []
-Latest Condition is : [['B1', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 35.0s
-
-Condition Changed at frame_176730.jpg
-Previous Condition was : [['B1', True], ['B2', False]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_176760.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_176790.jpg
-Previous Condition was : [['8', False], ['B1', True], ['B2', False]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_176850.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['B1', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_176880.jpg
-Previous Condition was : [['B1', True], ['B2', True]]
-Latest Condition is : [['8', True], ['B1', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_176910.jpg
-Previous Condition was : [['8', False], ['B1', True], ['B2', True]]
-Latest Condition is : [['B1', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_176970.jpg
-Previous Condition was : [['B1', True], ['B2', True]]
-Latest Condition is : [['8', True], ['B1', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_177000.jpg
-Previous Condition was : [['8', False], ['B1', True], ['B2', True]]
-Latest Condition is : [['B1', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_177060.jpg
-Previous Condition was : [['B1', True], ['B2', True]]
-Latest Condition is : [['8', True], ['B1', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_177090.jpg
-Previous Condition was : [['8', False], ['B1', True], ['B2', True]]
-Latest Condition is : [['B1', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_177120.jpg
-Previous Condition was : [['B1', True], ['B2', True]]
-Latest Condition is : [['8', True], ['B1', True], ['B2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_177150.jpg
-Previous Condition was : [['8', False], ['B1', True], ['B2', False]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_177180.jpg
-Previous Condition was : [['B1', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_178500.jpg
 Previous Condition was : []
-Latest Condition is : [['1', True], ['10', True], ['12', True], ['4', True]]
-Interval Between Previous Conditional Change is : 44.0s
-
-Condition Changed at frame_178530.jpg
-Previous Condition was : [['1', False], ['10', False], ['12', False], ['4', True]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_178590.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_178620.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_178980.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 12.0s
-
-Condition Changed at frame_179010.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_179040.jpg
-Previous Condition was : [['4', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_179070.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_179280.jpg
-Previous Condition was : [['4', False]]
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 7.0s
+Latest Condition is : [-1]
 
 Condition Changed at frame_179310.jpg
-Previous Condition was : [['6', False]]
+Previous Condition was : [-1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_180600.jpg
-Previous Condition was : []
-Latest Condition is : [['12', True]]
-Interval Between Previous Conditional Change is : 43.0s
-
-Condition Changed at frame_180630.jpg
-Previous Condition was : [['12', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_180660.jpg
 Previous Condition was : []
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_181110.jpg
-Previous Condition was : [['2', True], ['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 15.0s
+Latest Condition is : [-3]
 
 Condition Changed at frame_181140.jpg
-Previous Condition was : [['2', False]]
+Previous Condition was : [-3]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_181680.jpg
-Previous Condition was : []
-Latest Condition is : [['12', True], ['4', True]]
-Interval Between Previous Conditional Change is : 18.0s
 
 Condition Changed at frame_181710.jpg
-Previous Condition was : [['12', False], ['4', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_181740.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_181770.jpg
-Previous Condition was : [['4', True], ['5', False]]
-Latest Condition is : [['4', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_181800.jpg
-Previous Condition was : [['4', True], ['7', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_181860.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_181890.jpg
-Previous Condition was : [['4', False], ['5', True], ['6', False]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_181950.jpg
-Previous Condition was : [['5', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : []
+Latest Condition is : [1]
 
 Condition Changed at frame_181980.jpg
-Previous Condition was : [['4', True], ['5', True]]
-Latest Condition is : [['4', True], ['5', True], ['6', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [1]
+Latest Condition is : []
 
 Condition Changed at frame_182010.jpg
-Previous Condition was : [['4', True], ['5', True], ['6', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_182070.jpg
-Previous Condition was : [['4', True], ['5', True], ['6', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_182130.jpg
-Previous Condition was : [['4', True], ['5', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_182160.jpg
-Previous Condition was : [['4', True], ['5', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_182190.jpg
-Previous Condition was : [['4', True], ['5', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [1]
 
 Condition Changed at frame_182220.jpg
-Previous Condition was : [['4', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_185700.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True], ['7', True]]
-Interval Between Previous Conditional Change is : 116.0s
 
 Condition Changed at frame_185730.jpg
-Previous Condition was : [['4', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [1]
 
 Condition Changed at frame_185760.jpg
-Previous Condition was : [['4', True], ['5', True], ['6', True]]
-Latest Condition is : [['4', True], ['5', True], ['6', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_185790.jpg
-Previous Condition was : [['4', True], ['5', False], ['6', True], ['7', False]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_185820.jpg
-Previous Condition was : [['4', True], ['6', True]]
-Latest Condition is : [['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_185850.jpg
-Previous Condition was : [['4', True], ['5', True], ['6', True]]
-Latest Condition is : [['4', True], ['5', True], ['6', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_185880.jpg
-Previous Condition was : [['4', True], ['5', True], ['6', False], ['7', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_185910.jpg
-Previous Condition was : [['4', True], ['5', False]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [1]
+Latest Condition is : []
 
 Condition Changed at frame_185940.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [1]
 
 Condition Changed at frame_185970.jpg
-Previous Condition was : [['4', True], ['5', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_186060.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_186090.jpg
-Previous Condition was : [['4', True], ['5', True]]
-Latest Condition is : [['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_186120.jpg
-Previous Condition was : [['4', True], ['5', False], ['7', True]]
-Latest Condition is : [['4', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_186150.jpg
-Previous Condition was : [['4', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_186180.jpg
-Previous Condition was : [['4', True], ['5', True]]
-Latest Condition is : [['4', True], ['5', True], ['6', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_186210.jpg
-Previous Condition was : [['4', True], ['5', True], ['6', False], ['7', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_186240.jpg
-Previous Condition was : [['4', True], ['5', False]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_186270.jpg
-Previous Condition was : [['4', True], ['6', True]]
-Latest Condition is : [['4', True], ['5', True], ['6', True], ['7', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_186300.jpg
-Previous Condition was : [['4', True], ['5', True], ['6', True], ['7', False]]
-Latest Condition is : [['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_186330.jpg
-Previous Condition was : [['4', False], ['5', False], ['6', False]]
+Previous Condition was : [1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_188760.jpg
 Previous Condition was : []
-Latest Condition is : [['1', True], ['12', True], ['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 81.0s
-
-Condition Changed at frame_188790.jpg
-Previous Condition was : [['1', False], ['12', False], ['2', True], ['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_188820.jpg
-Previous Condition was : [['2', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_188850.jpg
-Previous Condition was : [['2', True], ['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_188880.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_188910.jpg
-Previous Condition was : [['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_188940.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_188970.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_189060.jpg
-Previous Condition was : [['2', True], ['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_189120.jpg
-Previous Condition was : [['2', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_189180.jpg
-Previous Condition was : [['2', True], ['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_189240.jpg
-Previous Condition was : [['2', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_189270.jpg
-Previous Condition was : [['2', True], ['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_189300.jpg
-Previous Condition was : [['2', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [-3]
 
 Condition Changed at frame_189360.jpg
-Previous Condition was : [['2', False], ['4', False]]
+Previous Condition was : [-3]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 2.0s
 
-Condition Changed at frame_192540.jpg
+Condition Changed at frame_198660.jpg
 Previous Condition was : []
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 106.0s
-
-Condition Changed at frame_192630.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_192690.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_192720.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_192750.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_192780.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_192900.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_192930.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_193020.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_193050.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_193110.jpg
-Previous Condition was : [['B1', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_195570.jpg
-Previous Condition was : []
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 82.0s
-
-Condition Changed at frame_195600.jpg
-Previous Condition was : [['6', True]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_195660.jpg
-Previous Condition was : [['6', False], ['8', True]]
-Latest Condition is : [['8', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_195690.jpg
-Previous Condition was : [['8', True]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_195720.jpg
-Previous Condition was : [['6', False], ['8', True]]
-Latest Condition is : [['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_195750.jpg
-Previous Condition was : [['8', True]]
-Latest Condition is : [['8', True], ['9', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_195780.jpg
-Previous Condition was : [['8', True], ['9', False]]
-Latest Condition is : [['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_195810.jpg
-Previous Condition was : [['8', True]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_195900.jpg
-Previous Condition was : [['6', False], ['8', True]]
-Latest Condition is : [['8', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_195930.jpg
-Previous Condition was : [['8', True]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_195990.jpg
-Previous Condition was : [['6', True], ['8', True]]
-Latest Condition is : [['6', True], ['8', True], ['9', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_196020.jpg
-Previous Condition was : [['6', True], ['8', True], ['9', False]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_196200.jpg
-Previous Condition was : [['6', False], ['8', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 6.0s
-
-Condition Changed at frame_198810.jpg
-Previous Condition was : []
-Latest Condition is : [['Green', True]]
-Interval Between Previous Conditional Change is : 87.0s
-
-Condition Changed at frame_198840.jpg
-Previous Condition was : [['Green', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 Condition Changed at frame_198960.jpg
+Previous Condition was : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Latest Condition is : []
+
+Condition Changed at frame_198990.jpg
 Previous Condition was : []
-Latest Condition is : [['Green', True]]
-Interval Between Previous Conditional Change is : 4.0s
+Latest Condition is : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+Condition Changed at frame_199020.jpg
+Previous Condition was : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Latest Condition is : []
+
+Condition Changed at frame_199110.jpg
+Previous Condition was : []
+Latest Condition is : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 Condition Changed at frame_199140.jpg
-Previous Condition was : [['Green', False]]
+Previous Condition was : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 6.0s
 
 Condition Changed at frame_201840.jpg
 Previous Condition was : []
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 90.0s
+Latest Condition is : [-1]
 
 Condition Changed at frame_201870.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['1', True], ['11', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [-1]
+Latest Condition is : []
 
 Condition Changed at frame_201900.jpg
-Previous Condition was : [['1', False], ['11', False], ['4', True]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_202260.jpg
-Previous Condition was : [['4', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 12.0s
-
-Condition Changed at frame_202290.jpg
 Previous Condition was : []
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [-1]
 
 Condition Changed at frame_202350.jpg
-Previous Condition was : [['4', False]]
+Previous Condition was : [-1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_202380.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_202410.jpg
-Previous Condition was : [['2', False], ['4', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : []
+Latest Condition is : [-3]
 
 Condition Changed at frame_202440.jpg
+Previous Condition was : [-3]
+Latest Condition is : []
+
+Condition Changed at frame_202470.jpg
 Previous Condition was : []
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [-3]
 
 Condition Changed at frame_202500.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : [-3]
+Latest Condition is : []
 
-Condition Changed at frame_202620.jpg
-Previous Condition was : [['2', False], ['4', True]]
-Latest Condition is : [['1', True], ['12', True], ['4', True]]
-Interval Between Previous Conditional Change is : 4.0s
+Condition Changed at frame_202560.jpg
+Previous Condition was : []
+Latest Condition is : [-3]
 
-Condition Changed at frame_202650.jpg
-Previous Condition was : [['1', False], ['12', False], ['4', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_202770.jpg
-Previous Condition was : [['2', False], ['4', True]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_202800.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_203190.jpg
-Previous Condition was : [['2', True], ['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 13.0s
+Condition Changed at frame_202590.jpg
+Previous Condition was : [-3]
+Latest Condition is : []
 
 Condition Changed at frame_203220.jpg
-Previous Condition was : [['2', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_203430.jpg
-Previous Condition was : [['2', True], ['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 7.0s
-
-Condition Changed at frame_203460.jpg
-Previous Condition was : [['2', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_203490.jpg
-Previous Condition was : [['2', True], ['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_203520.jpg
-Previous Condition was : [['2', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_203640.jpg
-Previous Condition was : [['2', True], ['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_203700.jpg
-Previous Condition was : [['2', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_203880.jpg
-Previous Condition was : [['2', True], ['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 6.0s
+Previous Condition was : []
+Latest Condition is : [-3]
 
 Condition Changed at frame_204030.jpg
-Previous Condition was : [['2', False]]
+Previous Condition was : [-3]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 5.0s
 
-Condition Changed at frame_206220.jpg
+Condition Changed at frame_207270.jpg
 Previous Condition was : []
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 73.0s
-
-Condition Changed at frame_206340.jpg
-Previous Condition was : [['6', False], ['8', True]]
-Latest Condition is : [['8', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_206370.jpg
-Previous Condition was : [['8', True]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_206460.jpg
-Previous Condition was : [['6', False], ['8', True]]
-Latest Condition is : [['8', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_206490.jpg
-Previous Condition was : [['8', True]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_206730.jpg
-Previous Condition was : [['6', False], ['8', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 8.0s
-
-Condition Changed at frame_207120.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 13.0s
-
-Condition Changed at frame_207150.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_207180.jpg
-Previous Condition was : [['4', False], ['5', False]]
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_207210.jpg
-Previous Condition was : [['6', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 Condition Changed at frame_207300.jpg
-Previous Condition was : []
-Latest Condition is : [['3', True], ['4', True], ['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 3.0s
+Previous Condition was : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Latest Condition is : [-2, 1]
 
 Condition Changed at frame_207330.jpg
-Previous Condition was : [['3', True], ['4', True], ['5', False], ['7', False]]
-Latest Condition is : [['2', True], ['3', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_207360.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_207450.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True], ['5', False]]
-Latest Condition is : [['2', True], ['3', True], ['4', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_207480.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_207510.jpg
-Previous Condition was : [['2', True], ['3', False], ['4', True], ['5', False], ['6', True]]
-Latest Condition is : [['2', True], ['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_207540.jpg
-Previous Condition was : [['2', True], ['4', True], ['6', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_207600.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True], ['5', False], ['6', False]]
-Latest Condition is : [['2', True], ['3', True], ['4', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_207630.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_207660.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True], ['5', False]]
-Latest Condition is : [['2', True], ['3', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_207720.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_207750.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True], ['5', False], ['6', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_207780.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True], ['6', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True], ['5', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_207840.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True], ['5', False], ['6', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_207900.jpg
-Previous Condition was : [['2', True], ['3', False], ['4', True], ['6', True]]
-Latest Condition is : [['2', True], ['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_207930.jpg
-Previous Condition was : [['2', True], ['4', True], ['6', False]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_207960.jpg
-Previous Condition was : [['2', True], ['4', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_208050.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_208080.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True], ['5', False]]
-Latest Condition is : [['2', True], ['3', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_208140.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_208170.jpg
-Previous Condition was : [['2', True], ['3', True], ['4', True], ['5', False]]
-Latest Condition is : [['2', True], ['3', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_208260.jpg
-Previous Condition was : [['2', True], ['3', False], ['4', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_208290.jpg
-Previous Condition was : [['2', True], ['4', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_208320.jpg
-Previous Condition was : [['2', True], ['3', False], ['4', True]]
-Latest Condition is : [['2', True], ['4', True], ['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_208350.jpg
-Previous Condition was : [['2', True], ['4', True], ['5', False]]
-Latest Condition is : [['2', True], ['3', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_208380.jpg
-Previous Condition was : [['2', True], ['3', False], ['4', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_208410.jpg
-Previous Condition was : [['2', True], ['4', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_208530.jpg
-Previous Condition was : [['2', True], ['3', False], ['4', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_208560.jpg
-Previous Condition was : [['2', True], ['4', True]]
-Latest Condition is : [['2', True], ['3', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_208740.jpg
-Previous Condition was : [['2', False], ['3', False], ['4', False]]
+Previous Condition was : [-2, 1]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 6.0s
-
-Condition Changed at frame_211500.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 92.0s
-
-Condition Changed at frame_211980.jpg
-Previous Condition was : [['4', False], ['6', True]]
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 16.0s
-
-Condition Changed at frame_212010.jpg
-Previous Condition was : [['6', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_212040.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_212100.jpg
-Previous Condition was : [['4', False], ['6', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_213330.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 41.0s
-
-Condition Changed at frame_213480.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_213510.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_213630.jpg
-Previous Condition was : [['4', True], ['6', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_213660.jpg
-Previous Condition was : [['4', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_213750.jpg
-Previous Condition was : [['4', False], ['6', True]]
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_213810.jpg
-Previous Condition was : [['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_213870.jpg
-Previous Condition was : [['4', False], ['6', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_216660.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 93.0s
-
-Condition Changed at frame_217290.jpg
-Previous Condition was : [['4', False], ['6', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 21.0s
-
-Condition Changed at frame_218310.jpg
-Previous Condition was : []
-Latest Condition is : [['11', True]]
-Interval Between Previous Conditional Change is : 34.0s
-
-Condition Changed at frame_218340.jpg
-Previous Condition was : [['11', True]]
-Latest Condition is : [['1', True], ['11', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_218400.jpg
-Previous Condition was : [['1', True], ['11', True]]
-Latest Condition is : [['1', True], ['11', True], ['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_218550.jpg
-Previous Condition was : [['1', False], ['11', False], ['6', True], ['8', True]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_218730.jpg
-Previous Condition was : [['6', False], ['8', True]]
-Latest Condition is : [['8', True]]
-Interval Between Previous Conditional Change is : 6.0s
-
-Condition Changed at frame_218760.jpg
-Previous Condition was : [['8', True]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_219150.jpg
-Previous Condition was : [['6', False], ['8', True]]
-Latest Condition is : [['1', True], ['11', True], ['8', True]]
-Interval Between Previous Conditional Change is : 13.0s
-
-Condition Changed at frame_219180.jpg
-Previous Condition was : [['1', True], ['11', True], ['8', True]]
-Latest Condition is : [['1', True], ['11', True], ['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_219330.jpg
-Previous Condition was : [['1', False], ['11', False], ['6', True], ['8', True]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_219540.jpg
-Previous Condition was : [['6', False], ['8', True]]
-Latest Condition is : [['8', True]]
-Interval Between Previous Conditional Change is : 7.0s
-
-Condition Changed at frame_219570.jpg
-Previous Condition was : [['8', True]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_219720.jpg
-Previous Condition was : [['6', False], ['8', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 5.0s
 
 Condition Changed at frame_224220.jpg
 Previous Condition was : []
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 150.0s
+Latest Condition is : [-5]
 
-Condition Changed at frame_224310.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 3.0s
+Condition Changed at frame_224280.jpg
+Previous Condition was : [-5]
+Latest Condition is : []
 
-Condition Changed at frame_224340.jpg
-Previous Condition was : [['11', True], ['2', True], ['4', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Condition Changed at frame_224370.jpg
+Previous Condition was : []
+Latest Condition is : [-5]
 
-Condition Changed at frame_224430.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 3.0s
+Condition Changed at frame_224400.jpg
+Previous Condition was : [-5]
+Latest Condition is : []
 
-Condition Changed at frame_224490.jpg
-Previous Condition was : [['11', True], ['2', True], ['4', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Condition Changed at frame_224730.jpg
+Previous Condition was : []
+Latest Condition is : [-5]
 
-Condition Changed at frame_224970.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['1', True], ['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 16.0s
+Condition Changed at frame_224760.jpg
+Previous Condition was : [-5]
+Latest Condition is : []
 
-Condition Changed at frame_225000.jpg
-Previous Condition was : [['1', False], ['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Condition Changed at frame_224790.jpg
+Previous Condition was : []
+Latest Condition is : [-5]
 
 Condition Changed at frame_225510.jpg
-Previous Condition was : [['11', False], ['2', False]]
+Previous Condition was : [-5]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 17.0s
 
-Condition Changed at frame_227280.jpg
+Condition Changed at frame_237990.jpg
 Previous Condition was : []
-Latest Condition is : [['12', True], ['4', True]]
-Interval Between Previous Conditional Change is : 59.0s
-
-Condition Changed at frame_227310.jpg
-Previous Condition was : [['12', False], ['4', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_227610.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 10.0s
-
-Condition Changed at frame_227640.jpg
-Previous Condition was : [['4', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_227760.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_227820.jpg
-Previous Condition was : [['4', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_227940.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_227970.jpg
-Previous Condition was : [['4', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_232680.jpg
-Previous Condition was : []
-Latest Condition is : [['1', True], ['12', True], ['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 157.0s
-
-Condition Changed at frame_232710.jpg
-Previous Condition was : [['1', False], ['12', False], ['6', True], ['8', True]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_233160.jpg
-Previous Condition was : [['6', False], ['8', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 15.0s
-
-Condition Changed at frame_235350.jpg
-Previous Condition was : []
-Latest Condition is : [['12', True]]
-Interval Between Previous Conditional Change is : 73.0s
-
-Condition Changed at frame_235380.jpg
-Previous Condition was : [['12', False]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_235470.jpg
-Previous Condition was : [['6', False], ['8', True]]
-Latest Condition is : [['8', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_235500.jpg
-Previous Condition was : [['8', True]]
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_235680.jpg
-Previous Condition was : [['6', False], ['8', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 6.0s
-
-Condition Changed at frame_235710.jpg
-Previous Condition was : []
-Latest Condition is : [['6', True], ['8', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_235890.jpg
-Previous Condition was : [['6', False], ['8', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 6.0s
+Latest Condition is : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 Condition Changed at frame_238020.jpg
-Previous Condition was : []
-Latest Condition is : [['1', True], ['12', True], ['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 71.0s
-
-Condition Changed at frame_238050.jpg
-Previous Condition was : [['1', False], ['12', False], ['2', True], ['4', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_238080.jpg
-Previous Condition was : [['2', False], ['4', False]]
+Previous Condition was : [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_238170.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_238200.jpg
-Previous Condition was : [['2', True]]
-Latest Condition is : [['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_238230.jpg
-Previous Condition was : [['2', True], ['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_238470.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 8.0s
-
-Condition Changed at frame_247050.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 286.0s
-
-Condition Changed at frame_247080.jpg
-Previous Condition was : [['4', True], ['6', True]]
-Latest Condition is : [['1', True], ['12', True], ['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_247110.jpg
-Previous Condition was : [['1', False], ['12', False], ['4', True], ['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_247170.jpg
-Previous Condition was : [['4', False], ['6', True]]
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_247200.jpg
-Previous Condition was : [['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_247500.jpg
-Previous Condition was : [['4', False], ['6', True]]
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 10.0s
-
-Condition Changed at frame_247530.jpg
-Previous Condition was : [['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_247620.jpg
-Previous Condition was : [['4', False], ['6', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_250860.jpg
-Previous Condition was : []
-Latest Condition is : [['12', True]]
-Interval Between Previous Conditional Change is : 108.0s
-
-Condition Changed at frame_250890.jpg
-Previous Condition was : [['12', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_251460.jpg
-Previous Condition was : []
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 19.0s
-
-Condition Changed at frame_251490.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_251520.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_251550.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_251580.jpg
-Previous Condition was : [['11', True], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_251610.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_251640.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_251730.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_251850.jpg
-Previous Condition was : [['11', True], ['12', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_251880.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_251910.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_251940.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_251970.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252030.jpg
-Previous Condition was : [['11', True], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_252060.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252090.jpg
-Previous Condition was : [['11', False], ['2', True]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252120.jpg
-Previous Condition was : [['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252180.jpg
-Previous Condition was : [['11', True], ['12', True], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_252270.jpg
-Previous Condition was : [['11', True], ['12', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_252300.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252330.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252390.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_252450.jpg
-Previous Condition was : [['11', True], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_252480.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252510.jpg
-Previous Condition was : [['11', False], ['2', True]]
-Latest Condition is : [['12', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252540.jpg
-Previous Condition was : [['12', False], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252570.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252600.jpg
-Previous Condition was : [['11', True], ['12', True], ['2', True], ['4', False]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252660.jpg
-Previous Condition was : [['11', False], ['12', True], ['2', True]]
-Latest Condition is : [['12', True], ['2', True], ['4', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_252690.jpg
-Previous Condition was : [['12', True], ['2', True], ['4', False]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252780.jpg
-Previous Condition was : [['11', False], ['12', True], ['2', True]]
-Latest Condition is : [['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_252810.jpg
-Previous Condition was : [['12', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252840.jpg
-Previous Condition was : [['11', True], ['12', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252870.jpg
-Previous Condition was : [['11', True], ['12', True], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_252960.jpg
-Previous Condition was : [['11', True], ['12', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True], ['3', True], ['4', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_252990.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True], ['3', True], ['4', False]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_253020.jpg
-Previous Condition was : [['11', True], ['2', True], ['3', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_253050.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_253080.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_253110.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_253140.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_253170.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_253350.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 6.0s
-
-Condition Changed at frame_253440.jpg
-Previous Condition was : [['11', True], ['12', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_253500.jpg
-Previous Condition was : [['11', True], ['12', True], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_253560.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_253650.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_253680.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_253770.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_253830.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_253860.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_253920.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_253950.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_253980.jpg
-Previous Condition was : [['11', False], ['12', False], ['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_255390.jpg
-Previous Condition was : []
-Latest Condition is : [['12', True]]
-Interval Between Previous Conditional Change is : 47.0s
-
-Condition Changed at frame_255420.jpg
-Previous Condition was : [['12', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_255630.jpg
-Previous Condition was : []
-Latest Condition is : [['12', True]]
-Interval Between Previous Conditional Change is : 7.0s
-
-Condition Changed at frame_255660.jpg
-Previous Condition was : [['12', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_255720.jpg
-Previous Condition was : []
-Latest Condition is : [['12', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_255750.jpg
-Previous Condition was : [['12', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_256440.jpg
-Previous Condition was : []
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 23.0s
-
-Condition Changed at frame_256470.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_256590.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_256620.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_256800.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 6.0s
-
-Condition Changed at frame_256830.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_256860.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_256890.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_257010.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_257040.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_257160.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_257190.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_257250.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_257340.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_257370.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_257400.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_257700.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 10.0s
-
-Condition Changed at frame_257760.jpg
-Previous Condition was : [['B3', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_263760.jpg
-Previous Condition was : []
-Latest Condition is : [['12', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 200.0s
-
-Condition Changed at frame_263790.jpg
-Previous Condition was : [['12', False], ['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_263820.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_263880.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 2.0s
 
 Condition Changed at frame_264060.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 6.0s
+Previous Condition was : []
+Latest Condition is : [6]
 
 Condition Changed at frame_264090.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_264120.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_264150.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_264180.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_264210.jpg
-Previous Condition was : [['B3', True]]
-Latest Condition is : [['B1', True], ['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_264240.jpg
-Previous Condition was : [['B1', False], ['B3', True]]
-Latest Condition is : [['B3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_264330.jpg
-Previous Condition was : [['B3', False]]
+Previous Condition was : [6]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 3.0s
 
-Condition Changed at frame_265320.jpg
+Condition Changed at frame_286170.jpg
 Previous Condition was : []
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 33.0s
+Latest Condition is : [4]
 
-Condition Changed at frame_265350.jpg
-Previous Condition was : [['11', True], ['12', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_265380.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_265410.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_265440.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_265560.jpg
-Previous Condition was : [['11', False], ['2', True]]
-Latest Condition is : [['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_265590.jpg
-Previous Condition was : [['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_265620.jpg
-Previous Condition was : [['11', True], ['2', False]]
-Latest Condition is : [['11', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_265650.jpg
-Previous Condition was : [['11', False]]
-Latest Condition is : [['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_265680.jpg
-Previous Condition was : [['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_265740.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_265770.jpg
-Previous Condition was : [['11', True], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_265890.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 4.0s
-
-Condition Changed at frame_266100.jpg
-Previous Condition was : [['11', True], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 7.0s
-
-Condition Changed at frame_266190.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_266220.jpg
-Previous Condition was : [['11', False], ['2', False], ['3', False]]
+Condition Changed at frame_286200.jpg
+Previous Condition was : [4]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_269610.jpg
-Previous Condition was : []
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 113.0s
-
-Condition Changed at frame_269640.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['12', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_269670.jpg
-Previous Condition was : [['11', True], ['12', False], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_269730.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_269940.jpg
-Previous Condition was : [['11', False], ['2', True], ['3', True]]
-Latest Condition is : [['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 7.0s
-
-Condition Changed at frame_269970.jpg
-Previous Condition was : [['2', True], ['3', True]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_270000.jpg
-Previous Condition was : [['11', True], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_270060.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_270150.jpg
-Previous Condition was : [['11', True], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_270180.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_270390.jpg
-Previous Condition was : [['11', True], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 7.0s
-
-Condition Changed at frame_270420.jpg
-Previous Condition was : [['11', False], ['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_274050.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 121.0s
-
-Condition Changed at frame_274080.jpg
-Previous Condition was : [['2', True]]
-Latest Condition is : [['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_274110.jpg
-Previous Condition was : [['12', False], ['2', True]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_274260.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_274290.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_274350.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_274380.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_274410.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_274440.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_274470.jpg
-Previous Condition was : [['4', False]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_274620.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_277200.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 86.0s
-
-Condition Changed at frame_277230.jpg
-Previous Condition was : [['4', True], ['6', True]]
-Latest Condition is : [['12', True], ['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_277260.jpg
-Previous Condition was : [['12', False], ['4', True], ['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_277770.jpg
-Previous Condition was : [['4', False], ['6', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 17.0s
-
-Condition Changed at frame_279480.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 57.0s
-
-Condition Changed at frame_280020.jpg
-Previous Condition was : [['4', False], ['6', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 18.0s
-
-Condition Changed at frame_281430.jpg
-Previous Condition was : []
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 47.0s
-
-Condition Changed at frame_281760.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 11.0s
-
-Condition Changed at frame_281790.jpg
-Previous Condition was : [['11', True], ['2', True], ['3', False]]
-Latest Condition is : [['11', True], ['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_281940.jpg
-Previous Condition was : [['11', True], ['2', True]]
-Latest Condition is : [['11', True], ['2', True], ['3', True]]
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_281970.jpg
-Previous Condition was : [['11', False], ['2', False], ['3', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_284310.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 78.0s
-
-Condition Changed at frame_284340.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_284370.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_284400.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_284430.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_284460.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_284490.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_284640.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_284670.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_284700.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_286080.jpg
-Previous Condition was : []
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 46.0s
-
-Condition Changed at frame_286410.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 11.0s
-
-Condition Changed at frame_286440.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_286740.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 10.0s
-
-Condition Changed at frame_286770.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_286830.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_286860.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_287010.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 5.0s
-
-Condition Changed at frame_287070.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_287160.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_287220.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_287280.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_287310.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_287370.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_287430.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_287460.jpg
-Previous Condition was : [['8', False], ['B1', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_289380.jpg
-Previous Condition was : []
-Latest Condition is : [['12', True], ['2', True]]
-Interval Between Previous Conditional Change is : 64.0s
-
-Condition Changed at frame_289410.jpg
-Previous Condition was : [['12', False], ['2', True]]
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_289470.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 2.0s
-
-Condition Changed at frame_289500.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_289530.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_289620.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_289650.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_289680.jpg
-Previous Condition was : []
-Latest Condition is : [['2', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_289920.jpg
-Previous Condition was : [['2', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 8.0s
-
-Condition Changed at frame_290100.jpg
-Previous Condition was : []
-Latest Condition is : [['11', True]]
-Interval Between Previous Conditional Change is : 6.0s
-
-Condition Changed at frame_290130.jpg
-Previous Condition was : [['11', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_290340.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 7.0s
-
-Condition Changed at frame_290370.jpg
-Previous Condition was : [['4', True], ['6', True]]
-Latest Condition is : [['12', True], ['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_290400.jpg
-Previous Condition was : [['12', False], ['4', True], ['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_290940.jpg
-Previous Condition was : [['4', False], ['6', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 18.0s
-
-Condition Changed at frame_296850.jpg
-Previous Condition was : []
-Latest Condition is : [['12', True]]
-Interval Between Previous Conditional Change is : 197.0s
-
-Condition Changed at frame_296880.jpg
-Previous Condition was : [['12', False]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_297390.jpg
-Previous Condition was : [['4', False], ['6', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 17.0s
-
-Condition Changed at frame_299160.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 59.0s
-
-Condition Changed at frame_299190.jpg
-Previous Condition was : [['4', False], ['6', True]]
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_299280.jpg
-Previous Condition was : [['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_299670.jpg
-Previous Condition was : [['4', False], ['6', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 13.0s
 
 Condition Changed at frame_300570.jpg
 Previous Condition was : []
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 30.0s
-
-Condition Changed at frame_300840.jpg
-Previous Condition was : [['8', False], ['B1', True]]
-Latest Condition is : [['B1', True]]
-Interval Between Previous Conditional Change is : 9.0s
-
-Condition Changed at frame_300870.jpg
-Previous Condition was : [['B1', True]]
-Latest Condition is : [['8', True], ['B1', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Latest Condition is : [6]
 
 Condition Changed at frame_301260.jpg
-Previous Condition was : [['8', False], ['B1', False]]
+Previous Condition was : [6]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 13.0s
-
-Condition Changed at frame_302880.jpg
-Previous Condition was : []
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 54.0s
-
-Condition Changed at frame_302910.jpg
-Previous Condition was : [['6', True]]
-Latest Condition is : [['12', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_302940.jpg
-Previous Condition was : [['12', False], ['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_303180.jpg
-Previous Condition was : [['4', False], ['6', True]]
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 8.0s
-
-Condition Changed at frame_303210.jpg
-Previous Condition was : [['6', True]]
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
-
-Condition Changed at frame_303570.jpg
-Previous Condition was : [['4', False], ['6', False]]
-Latest Condition is : []
-Interval Between Previous Conditional Change is : 12.0s
-
-Condition Changed at frame_306030.jpg
-Previous Condition was : []
-Latest Condition is : [['4', True], ['6', True]]
-Interval Between Previous Conditional Change is : 82.0s
 
 Condition Changed at frame_306270.jpg
-Previous Condition was : [['4', False], ['6', True]]
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 8.0s
+Previous Condition was : []
+Latest Condition is : [2]
 
 Condition Changed at frame_306300.jpg
-Previous Condition was : [['6', False]]
+Previous Condition was : [2]
 Latest Condition is : []
-Interval Between Previous Conditional Change is : 1.0s
 
 Condition Changed at frame_306390.jpg
 Previous Condition was : []
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 3.0s
+Latest Condition is : [2]
 
 Condition Changed at frame_306450.jpg
-Previous Condition was : [['6', False]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : [2]
+Latest Condition is : [1]
 
 Condition Changed at frame_306510.jpg
-Previous Condition was : [['5', False], ['7', False]]
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : [1]
+Latest Condition is : [2]
 
 Condition Changed at frame_306540.jpg
-Previous Condition was : [['6', False]]
-Latest Condition is : [['5', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [2]
+Latest Condition is : [1]
 
 Condition Changed at frame_306570.jpg
-Previous Condition was : [['5', False]]
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [1]
+Latest Condition is : [2]
 
 Condition Changed at frame_306660.jpg
-Previous Condition was : [['6', False]]
-Latest Condition is : [['5', True], ['7', True]]
-Interval Between Previous Conditional Change is : 3.0s
-
-Condition Changed at frame_306720.jpg
-Previous Condition was : [['5', False], ['7', False]]
-Latest Condition is : [['4', True]]
-Interval Between Previous Conditional Change is : 2.0s
+Previous Condition was : [2]
+Latest Condition is : [1]
 
 Condition Changed at frame_306750.jpg
-Previous Condition was : [['4', False]]
-Latest Condition is : [['6', True]]
-Interval Between Previous Conditional Change is : 1.0s
+Previous Condition was : [1]
+Latest Condition is : [2]
 

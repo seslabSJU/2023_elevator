@@ -12,6 +12,7 @@ import classid_list
 
 config_Detection = config.Config_Detection()
 config_Color = config.Config_Color()
+config_ES = config.Config_Elevator_SW
 
 def detect_color_from_images(folder_path):
     img_path = Sort_image.get_images(folder_path)
@@ -28,22 +29,20 @@ def detect_color(image_file_path, label_text_path, class_list):
     detected_img = cv2.inRange(img, lowest_color_to_detect, highest_color_to_detect)
     contours, hierarchy = cv2.findContours(detected_img, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
 
-    if not contours:
-        empty_contours(class_list)
+    detected_button_list = []
 
-    else:
+    if contours:
         contour_list, hierarchy_list = check_contour_points(contours, hierarchy[0])
-
         draw_heirarchy_Contours(img, contours, hierarchy)
+        detected_button_list = detect_which_class_is_dot_in(img, label_text_path, class_list, contour_list, hierarchy_list)
 
-        class_list = detect_which_class_is_dot_in(img, label_text_path, class_list, contour_list, hierarchy_list)
+    result = []
+    for green_button_elem in detected_button_list:
+        value = config_ES.Location_List[green_button_elem]
+        if value != 999:
+            result.append(value)
 
-        #print(class_list)
-
-    green_button_list = classid_list.get_green_button_indexes(class_list)
-    #ViewLabel.display_label_info(img, label_text_path)
-
-    return green_button_list
+    return result
 
 def check_contour_points(contour_list, hierarchy_list):
     new_hierarchy_list = []
@@ -86,7 +85,7 @@ def draw_heirarchy_Contours(image, contour_list, hierarchy_list):
 def detect_which_class_is_dot_in(image, label_text_path, class_list, contour_list, hierarchy_list):
     label_data = ViewLabel.get_label_data(label_text_path)
     label_data_list = []
-    temp_class_list = classid_list.init_class_id_list(class_list)
+    green_button_list = []
 
     for label in label_data:
         l = []
@@ -98,40 +97,55 @@ def detect_which_class_is_dot_in(image, label_text_path, class_list, contour_lis
         right = int((x+width/2) * image_width)
         bottom = int((y+height/2) * image_height)
 
+        #print("id : {}, left : {}, top : {}, right : {}, bottom : {}\n".format(class_id, left, top, right, bottom))
+
         if class_id != 21:
             l.extend([class_id, left, top, right, bottom])
             label_data_list.append(l)
         #print("left " + str(left) + ", top " + str(top), ", right " + str(right), ", bottom ", str(bottom))
 
-    classfication_rate = 0.15
+    classfication_rate = 0.07
 
-    for label in label_data_list:
-        for i, (contour, hierarchy) in enumerate(zip(contour_list, hierarchy_list)):
-            dot_x = contour[0][0][0]
-            dot_y = contour[0][0][1]
-            class_id, left, top, right, bottom = label
+    detect_rate_list = make_detect_rate()
+    for i, (contour, hierarchy) in enumerate(zip(contour_list, hierarchy_list)):
+        detect_rate_list[1][0] += len(contour)
 
-            if classid_list.is_class_already_detected(class_id, temp_class_list):
-                break
+    for index, each_contour_heir in enumerate(contour_list):
+        # print(each_contour_heir)  # Three dimensional array
+        for each_dot in each_contour_heir:
+            for x, y in each_dot:
+                dot_x = x
+                dot_y = y
 
-            elif (dot_x >= left and dot_x <= right) and (dot_y >= top and dot_y <= bottom):
-                temp_class_list = classid_list.class_detected(class_id, temp_class_list)
-                    # if len(id_list) == 0 or (len(id_list) >= 1 and class_id != id_list[-1]):
-                    #     id_list.append(class_id)
+                for label in label_data_list:
+                    class_id, left, top, right, bottom = label
+                    #print("id is {}, l {}, t {}, r {}, b {}".format(class_id, left, top, right, bottom))
 
-    # for dot in dot_data_list:
-    #     for label in dot:
-    #         dot_x = dot[0][0]
-    #         dot_y = dot[0][1]
-    #         class_id, left, top, right, bottom = label
-    #         if (dot_x>= left and dot_x<=right) and (dot_y >= top and dot_y <= bottom):
-    #             #print(class_id)
-    #             if len(id_list) == 0 or (len(id_list) >= 1 and class_id != id_list[-1]):
-    #                 id_list.append(class_id)
-    return temp_class_list
+                    if (dot_x >= left and dot_x <= right) and (dot_y >= top and dot_y <= bottom):
+                        detect_rate_list[0][class_id] += 1
+    #print("Detect rate Lists are {}".format(detect_rate_list))
+
+    for index, elem in enumerate(detect_rate_list[0]):
+        if elem >= int(detect_rate_list[1][0] * classfication_rate):
+            green_button_list.append(index)
+
+    return green_button_list
+
+def make_detect_rate():
+    list = []
+    detect_list = [0] * 20
+    total_dot = [0]
+
+    list.append(detect_list)
+    list.append(total_dot)
+
+    return list
 
 def random_bgr_color():
     return(random.randint(0, 255), random.randint(0, 255), 255)
 
 def empty_contours(class_list):
     classid_list.init_class_id_list(class_list)
+
+if __name__ == '__main__':
+    make_detect_rate()

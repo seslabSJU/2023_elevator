@@ -15,7 +15,8 @@ def append_class_id_list_with_flag(class_list):
     list = []
 
     for key, value in enumerate(class_list):
-        list.append([value, False])
+        list.append(value)
+        #list.append([value, False])
 
     return list
 
@@ -32,20 +33,14 @@ def print_class_id(class_id_list, yaml_path):
 def class_detected(class_id, class_list):
     class_list[class_id][1] = True
     return class_list
-
-def init_class_id_list(class_id_list):
-    for i in range(len(class_id_list)):
-        class_id_list[i][1] = False
-
-    return class_id_list
 def is_class_already_detected(class_id, class_list):
     return class_list[class_id][1]
 
 def get_green_button_indexes(class_list):
     green_button_list = []
 
-    for i, c in enumerate(class_list):
-        if c[1]:
+    for i, class_id in enumerate(class_list):
+        if class_id:
             green_button_list.append(c)
 
     #print(green_button_list)
@@ -60,11 +55,10 @@ def log_green_button(config, previous_green_button_list, now_green_button_list):
     frame_number = int(frame_str)
 
     if not previous_green_button_list == now_green_button_list:
-        log = "Condition Changed at {}\nPrevious Condition was : {}\nLatest Condition is : {}\n".format(basename, previous_green_button_list, now_green_button_list)
+        log = "Condition Changed at {}\nPrevious Condition was : {}\nLatest Condition is : {}\n\n".format(basename, previous_green_button_list, now_green_button_list)
 
         with open(log_path, "a") as f:
             f.write(log)
-
         return frame_number
 
     else:
