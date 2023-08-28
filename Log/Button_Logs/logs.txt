@@ -990,3 +990,203 @@ Condition Changed at frame_306750.jpg
 Previous Condition was : [1]
 Latest Condition is : [2]
 
+Condition Changed at frame_20910.jpg
+Previous Condition was : []
+Latest Condition is : [1]
+
+Condition Changed at frame_21660.jpg
+Previous Condition was : [1]
+Latest Condition is : []
+
+Condition Changed at frame_23070.jpg
+Previous Condition was : []
+Latest Condition is : [8]
+
+Condition Changed at frame_23790.jpg
+Previous Condition was : [8]
+Latest Condition is : []
+
+Condition Changed at frame_25440.jpg
+Previous Condition was : []
+Latest Condition is : [8]
+
+Condition Changed at frame_26190.jpg
+Previous Condition was : [8]
+Latest Condition is : []
+
+Condition Changed at frame_27270.jpg
+Previous Condition was : []
+Latest Condition is : [-3]
+
+Condition Changed at frame_28170.jpg
+Previous Condition was : [-3]
+Latest Condition is : []
+
+Condition Changed at frame_29760.jpg
+Previous Condition was : []
+Latest Condition is : [5]
+
+Condition Changed at frame_30480.jpg
+Previous Condition was : [5]
+Latest Condition is : []
+
+Condition Changed at frame_32340.jpg
+Previous Condition was : []
+Latest Condition is : [-1]
+
+Condition Changed at frame_33090.jpg
+Previous Condition was : [-1]
+Latest Condition is : []
+
+Condition Changed at frame_33480.jpg
+Previous Condition was : []
+Latest Condition is : [4]
+
+Condition Changed at frame_34020.jpg
+Previous Condition was : [4]
+Latest Condition is : []
+
+Condition Changed at frame_35220.jpg
+Previous Condition was : []
+Latest Condition is : [1]
+
+Condition Changed at frame_37470.jpg
+Previous Condition was : [1]
+Latest Condition is : []
+
+Condition Changed at frame_38340.jpg
+Previous Condition was : []
+Latest Condition is : [6]
+
+Condition Changed at frame_39000.jpg
+Previous Condition was : [6]
+Latest Condition is : []
+
+Condition Changed at frame_41730.jpg
+Previous Condition was : []
+Latest Condition is : [1]
+
+Condition Changed at frame_43080.jpg
+Previous Condition was : [1]
+Latest Condition is : []
+
+Condition Changed at frame_44070.jpg
+Previous Condition was : []
+Latest Condition is : [5]
+
+Condition Changed at frame_44100.jpg
+Previous Condition was : [5]
+Latest Condition is : [4]
+
+Condition Changed at frame_44130.jpg
+Previous Condition was : [4]
+Latest Condition is : [4, 5]
+
+Condition Changed at frame_44160.jpg
+Previous Condition was : [4, 5]
+Latest Condition is : []
+
+Condition Changed at frame_44190.jpg
+Previous Condition was : []
+Latest Condition is : [5, 7]
+
+Condition Changed at frame_44220.jpg
+Previous Condition was : [5, 7]
+Latest Condition is : [4, 5, 7]
+
+Condition Changed at frame_44250.jpg
+Previous Condition was : [4, 5, 7]
+Latest Condition is : []
+
+Condition Changed at frame_44280.jpg
+Previous Condition was : []
+Latest Condition is : [5]
+
+Condition Changed at frame_44340.jpg
+Previous Condition was : [5]
+Latest Condition is : [4, 5]
+
+Condition Changed at frame_44430.jpg
+Previous Condition was : [4, 5]
+Latest Condition is : [4, 5, 7]
+
+Condition Changed at frame_44730.jpg
+Previous Condition was : [4, 5, 7]
+Latest Condition is : [5, 7]
+
+Condition Changed at frame_45480.jpg
+Previous Condition was : [5, 7]
+Latest Condition is : [7]
+
+Condition Changed at frame_46260.jpg
+Previous Condition was : [7]
+Latest Condition is : []
+
+Condition Changed at frame_49470.jpg
+Previous Condition was : []
+Latest Condition is : [-3]
+
+Condition Changed at frame_50010.jpg
+Previous Condition was : [-3]
+Latest Condition is : []
+
+Condition Changed at frame_20910.jpg
+Previous Condition was : []
+Latest Condition is : [1]
+
+Condition Changed at frame_21660.jpg
+Previous Condition was : [1]
+Latest Condition is : []
+
+Condition Changed at frame_23070.jpg
+Previous Condition was : []
+Latest Condition is : [8]
+
+Condition Changed at frame_23790.jpg
+Previous Condition was : [8]
+Latest Condition is : []
+
+Condition Changed at frame_25440.jpg
+Previous Condition was : []
+Latest Condition is : [8]
+
+Condition Changed at frame_26190.jpg
+Previous Condition was : [8]
+Latest Condition is : []
+
+Condition Changed at frame_27270.jpg
+Previous Condition was : []
+Latest Condition is : [-3]
+
+Condition Changed at frame_28170.jpg
+Previous Condition was : [-3]
+Latest Condition is : []
+
+Condition Changed at frame_29760.jpg
+Previous Condition was : []
+Latest Condition is : [5]
+
+Condition Changed at frame_30480.jpg
+Previous Condition was : [5]
+Latest Condition is : []
+
+Condition Changed at frame_32340.jpg
+Previous Condition was : []
+Latest Condition is : [-1]
+
+Condition Changed at frame_33090.jpg
+Previous Condition was : [-1]
+Latest Condition is : []
+
+Condition Changed at frame_33480.jpg
+Previous Condition was : []
+Latest Condition is : [4]
+
+Condition Changed at frame_34020.jpg
+Previous Condition was : [4]
+Latest Condition is : []
+
+Condition Changed at frame_35220.jpg
+Previous Condition was : []
+Latest Condition is : [1]
+

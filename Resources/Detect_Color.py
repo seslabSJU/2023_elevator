@@ -42,6 +42,7 @@ def detect_color(image_file_path, label_text_path, class_list):
         if value != 999:
             result.append(value)
 
+    ViewLabel.display_label_info(img, label_text_path)
     return result
 
 def check_contour_points(contour_list, hierarchy_list):
@@ -123,7 +124,7 @@ def detect_which_class_is_dot_in(image, label_text_path, class_list, contour_lis
 
                     if (dot_x >= left and dot_x <= right) and (dot_y >= top and dot_y <= bottom):
                         detect_rate_list[0][class_id] += 1
-    #print("Detect rate Lists are {}".format(detect_rate_list))
+    print("Detect rate Lists are {}".format(detect_rate_list))
 
     for index, elem in enumerate(detect_rate_list[0]):
         if elem >= int(detect_rate_list[1][0] * classfication_rate):
