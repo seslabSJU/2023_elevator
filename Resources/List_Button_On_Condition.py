@@ -1,7 +1,13 @@
-import os
-import numpy as np
-import classid_list
 import config
+import classid
+
+try:
+    from config import Config_Elevator_HW, Config_Elevator_SW
+    config_ELEVATOR_HW = Config_Elevator_HW
+    config_ELEVATOR_SW = Config_Elevator_SW
+
+except:
+    pass
 class Linked_List:
     def __init__(self):
         self.head = None
@@ -26,15 +32,6 @@ class Linked_List:
         node = self.get_node(value_now)
         if node is not None:
             node.value = value_to
-    # def add_Node_Left(self, destination):
-    #     node = Node(destination)
-    #     if self.head == None:
-    #         self.head = node
-    #         self.last = node
-    #     else:
-    #         node.next = self.head
-    #         self.head.prev = node
-    #         self.head = node
 
     def add_Node_Right(self, value, Direction):
         node = Node(value)
@@ -77,8 +74,6 @@ class Linked_List:
             return node
 
     def insert_Node(self, prev_Node, next_Node, node):
-        # prev_Node = self.get_node(prev_Node_value)
-        # next_Node = self.get_node(next_Node_value)
         if prev_Node.next != next_Node and next_Node.prev != prev_Node:
             print("Insert Node Relationship Error")
             return None
@@ -90,11 +85,6 @@ class Linked_List:
         node.prev = prev_Node
 
     def remove_and_insert_Node(self, prev_Node, next_Node, node):
-        # prev_Node = self.get_node(prev_Node_value)
-        # next_Node = self.get_node(next_Node_value)
-        # print(prev_Node.value)
-        # print(next_Node.value)
-
         node = self.remove_Node(node)
         self.insert_Node(prev_Node, next_Node, node)
 
@@ -113,12 +103,11 @@ class Node:
         self.direction = None
 
 def get_weight(value):
-    config_SW = config.Config_Elevator_SW
-    keys = config_SW.Location_Weight.keys()
+    keys = config_ELEVATOR_SW.Location_Weight.keys()
 
     for key in keys:
         if value == key:
-            return config_SW.Location_Weight[key]
+            return config_ELEVATOR_SW.Location_Weight[key]
 
     return None
 def sort_Nodes_via_Direction(LinkedList, Start_Location, Direction):
@@ -268,7 +257,7 @@ if __name__ == "__main__":
     #
     # LL = sort_Nodes_via_Direction(LL, "2", Direction)
     # LL.print_All_Nodes()
-    list = classid_list.get_classid_list_from_log()
+    list = classid.get_classid_list_from_log()
     for i, elem in enumerate(list):
         print("Num {}, Elem {}".format(i, elem))
     # if len(list) != 0:

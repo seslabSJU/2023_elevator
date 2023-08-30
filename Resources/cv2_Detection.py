@@ -1,17 +1,47 @@
 import datetime
 import Detect_Color
 import Sort_image
-import classid_list
-import Elevator_TimeList
+import classid
+import List_Button_On_Floor
 import Calculate_Elevator_Energy
+import Logging
 
 try:
     from config import Config_Detection, Config_Elevator_SW, Config_Log
-    config = Config_Detection
-    config_ES = Config_Elevator_SW
-    log_sensor = Config_Log.sensor_log_file_path
+    config_DETECT = Config_Detection
+    config_ELEVATOR_SW = Config_Elevator_SW
+    config_SENSOR_LOG = Config_Log.sensor_log_file_path
+
 except Exception as e:
     pass
+
+def make_list(frame, Root_List, delta):
+    alt, flr = Calculate_Elevator_Energy.Calculate_Current_Floor(config_SENSOR_LOG)
+    #Text = "Current Altimeter : {}m, Floor is {}\n".format(alt, flr)
+    if Root_List.head is None:
+        node = Root_List.addNode()
+        node.set_time(datetime.datetime.now().strftime('%Y%m%d%H%M%S'))
+        node.set_frame(frame)
+        node.set_currentFloor(flr)
+        node.set_pressedButton(delta)
+        node.set_InOut(1)
+    else:
+        last = Root_List.last
+        if frame - last.frame <= 30*5:
+            delta_not_last_pressed = [x for x in delta if x not in last.pressedButton]
+            for floor in delta_not_last_pressed:
+                last.add_pressedButton(floor)
+            last.set_frame(frame)
+        else:
+            node = Root_List.addNode()
+            node.set_time(datetime.datetime.now().strftime('%Y%m%d%H%M%S'))
+            node.set_frame(frame)
+            node.set_currentFloor(flr)
+            node.set_pressedButton(delta)
+            node.set_InOut(1)
+
+    Text = Root_List.printLastNodes()
+    return Text
 
 def check_differential(frame, previous, now, Root_List):
     bigger = previous if len(previous) > len(now) else now
@@ -34,83 +64,45 @@ def check_differential(frame, previous, now, Root_List):
     elif len(previous) == len(now) and previous != now:
         Text += "Button List has Changed "
         Text += make_list(frame, Root_List, now)
-    Elevator_TimeList.log_timelist(frame, Text)
+    List_Button_On_Floor.log_timelist(frame, Text)
 
-def make_list(frame, Root_List, delta):
-    alt, flr = Calculate_Elevator_Energy.Calculate_Current_Floor(log_sensor)
-    #Text = "Current Altimeter : {}m, Floor is {}\n".format(alt, flr)
-    if Root_List.head is None:
-        node = Root_List.addNode()
-        node.set_time(datetime.datetime.now().strftime('%Y%m%d%H%M%S'))
-        node.set_frame(frame)
-        node.set_currentFloor(flr)
-        node.set_pressedButton(delta)
-        node.set_InOut(1)
-    else:
-        last = Root_List.last
-        if frame - last.frame <= 30*5:
-            ddelta = [x for x in delta if x not in last.pressedButton]
-            for floor in ddelta:
-                last.add_pressedButton(floor)
-            last.set_frame(frame)
-        else:
-            node = Root_List.addNode()
-            node.set_time(datetime.datetime.now().strftime('%Y%m%d%H%M%S'))
-            node.set_frame(frame)
-            node.set_currentFloor(flr)
-            node.set_pressedButton(delta)
-            node.set_InOut(1)
+def Detect(img_path):
+    class_list = classid.get_class_id_list(config_DETECT.Detection_path['yaml_path'])
 
-    Text = Root_List.printLastNodes()
-    return Text
+    now_green_button_list = Detect_Color.detect_color(img_path, config_DETECT.Detection_path['label_txt_path'], class_list)
+    return now_green_button_list
 
-def Detect_and_Show():
-    images = Sort_image.get_images(config.Detection_path['image_folder_path'])
+def Run():
+    images = Sort_image.get_images(config_DETECT.Detection_path['image_folder_path'])
 
-    class_list = classid_list.get_class_id_list(config.Detection_path['yaml_path'])
-    class_list = classid_list.append_class_id_list_with_flag(class_list)
-
-    Root_List = Elevator_TimeList.TimeList()
-
+    root_list = List_Button_On_Floor.TimeList()
     previous_green_button_list = []
-    previous_frame = -1
 
+    previous_frame = -1
     count = 1
-    division = 10
-    flag = 0
 
     for img_path in images:
         print("Reading Button Log From image {}...".format(img_path))
-        config.Detection_path['image_file_path'] = img_path
+        config_DETECT.Detection_path['image_file_path'] = img_path
 
-        now_green_button_list = Detect_Color.detect_color(img_path, config.Detection_path['label_txt_path'], class_list)
+        now_green_button_list = Detect(img_path)
 
-        if count == 0:
-            flag = 1
-        else:
-            flag = 0
-
-        frame = classid_list.log_green_button(config, previous_green_button_list, now_green_button_list)
+        frame = Logging.log_green_button(config_DETECT, previous_green_button_list, now_green_button_list)
 
         if frame is not None:
             if previous_frame == -1:
                 previous_frame = frame
             if previous_green_button_list != now_green_button_list:
-                check_differential(frame, previous_green_button_list, now_green_button_list, Root_List)
+                check_differential(frame, previous_green_button_list, now_green_button_list, root_list)
             else:
                 interval = float((frame-previous_frame)/30)
-                classid_list.log_interval(interval)
+                Logging.log_interval(interval)
                 previous_frame = frame
-
-            # Text = "Frame at {} : ".format(frame) + make_tree(Start_tree, now_green_button_list, flag) + "\n"
-            # classid_list.log_Tree(Text, Config_Log.tree_log_file_path)
 
         previous_green_button_list = now_green_button_list
 
-        count = (count+1)%division
-
 if __name__ == '__main__':
-    Detect_and_Show()
+    Run()
     # config = Config_Detection
     # class_list = classid_list.get_class_id_list(config.Detection_path['yaml_path'])
     # class_list = classid_list.append_class_id_list_with_flag(class_list)

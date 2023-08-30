@@ -2,19 +2,24 @@ import os
 import re
 import config
 
-config_EH = config.Config_Elevator_HW
-config_ES = config.Config_Elevator_SW
+try:
+    from config import Config_Elevator_SW, Config_Elevator_HW, Config_Log
+    config_EH = config.Config_Elevator_HW
+    config_ES = config.Config_Elevator_SW
 
-usage_intensity = config_EH.Usage_Intensity
+    usage_intensity = config_EH.Usage_Intensity
+    default_location = config_ES.Default_Location
 
-default_location = config_ES.Default_Location
-floors = config_ES.Location_Weight.keys()
+    floors = config_ES.Location_Weight.keys()
 
-Height_Per_Floor = config_EH.Height_Per_Floor
-First_floor_altitude = config_EH.First_Floor_Altitude
-current_floor_altitude = config_EH.Current_Floor_Altitude
+    Height_Per_Floor = config_EH.Height_Per_Floor
+    First_floor_altitude = config_EH.First_Floor_Altitude
+    current_floor_altitude = config_EH.Current_Floor_Altitude
 
-log_sensor = config.Config_Log.sensor_log_file_path
+    log_sensor = config.Config_Log.sensor_log_file_path
+
+except Exception as e:
+    pass
 def Calculate_Current_Floor(log_sensor):
     with open(log_sensor, 'r') as f:
         text = f.read()

@@ -1,30 +1,32 @@
-import os.path
 import random
 
 import cv2
-import yaml
 import numpy as np
 
 import config
-import ViewLabel
+import View_Label
 import Sort_image
-import classid_list
 
-config_Detection = config.Config_Detection()
-config_Color = config.Config_Color()
-config_ES = config.Config_Elevator_SW
+try:
+    from config import Config_Detection, Config_Color, Config_Elevator_SW
+    config_DETECTION = config.Config_Detection()
+    config_COLOR = config.Config_Color()
+    config_ES = config.Config_Elevator_SW
 
-def detect_color_from_images(folder_path):
-    img_path = Sort_image.get_images(folder_path)
+except Exception as e:
+    pass
 
-    for p in img_path:
-        img = cv2.imread(p)
-        detect_color(img)
+# def detect_color_from_images(folder_path):
+#     img_path = Sort_image.get_images(folder_path)
+#
+#     for p in img_path:
+#         img = cv2.imread(p)
+#         detect_color(img)
 
 def detect_color(image_file_path, label_text_path, class_list):
     img = cv2.imread(image_file_path)
-    lowest_color_to_detect = np.array(config_Color.Color_CV2['cv2_inrange_lowest'], dtype="uint8")
-    highest_color_to_detect = np.array(config_Color.Color_CV2['cv2_inrange_highest'], dtype="uint8")
+    lowest_color_to_detect = np.array(config_COLOR.Color_CV2['cv2_inrange_lowest'], dtype="uint8")
+    highest_color_to_detect = np.array(config_COLOR.Color_CV2['cv2_inrange_highest'], dtype="uint8")
 
     detected_img = cv2.inRange(img, lowest_color_to_detect, highest_color_to_detect)
     contours, hierarchy = cv2.findContours(detected_img, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
@@ -42,7 +44,7 @@ def detect_color(image_file_path, label_text_path, class_list):
         if value != 999:
             result.append(value)
 
-    ViewLabel.display_label_info(img, label_text_path)
+    #ViewLabel.display_label_info(img, label_text_path)
     return result
 
 def check_contour_points(contour_list, hierarchy_list):
@@ -58,7 +60,7 @@ def check_contour_points(contour_list, hierarchy_list):
 
     for i, contour in enumerate(contour_list):
         area = cv2.contourArea(contour)
-        if area > config_Detection.Detection_Range['MinCircleArea']:
+        if area > config_DETECTION.Detection_Range['MinCircleArea']:
             final_contour.append(contour)
             final_hierarchy.append(np_new_hierarchy_list[i])
 
@@ -84,7 +86,7 @@ def draw_heirarchy_Contours(image, contour_list, hierarchy_list):
         cv2.drawContours(image, [contour], -1, color, 3)
 
 def detect_which_class_is_dot_in(image, label_text_path, class_list, contour_list, hierarchy_list):
-    label_data = ViewLabel.get_label_data(label_text_path)
+    label_data = View_Label.get_label_data(label_text_path)
     label_data_list = []
     green_button_list = []
 
@@ -124,7 +126,7 @@ def detect_which_class_is_dot_in(image, label_text_path, class_list, contour_lis
 
                     if (dot_x >= left and dot_x <= right) and (dot_y >= top and dot_y <= bottom):
                         detect_rate_list[0][class_id] += 1
-    print("Detect rate Lists are {}".format(detect_rate_list))
+    #print("Detect rate Lists are {}".format(detect_rate_list))
 
     for index, elem in enumerate(detect_rate_list[0]):
         if elem >= int(detect_rate_list[1][0] * classfication_rate):
@@ -144,9 +146,6 @@ def make_detect_rate():
 
 def random_bgr_color():
     return(random.randint(0, 255), random.randint(0, 255), 255)
-
-def empty_contours(class_list):
-    classid_list.init_class_id_list(class_list)
 
 if __name__ == '__main__':
     make_detect_rate()

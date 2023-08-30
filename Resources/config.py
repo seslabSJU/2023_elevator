@@ -1,6 +1,3 @@
-import os, sys
-
-
 class Config_Detection:
     Detection_path = {
         'image_folder_path': f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Real\Vid_No3_2023-06-30-15-03',
@@ -105,9 +102,9 @@ class Config_Elevator_SW:
 
 
 class Config_Log:
-    log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\logs.txt"
-    timelist_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\timelist.txt"
-    sensor_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\sensors.txt"
+    log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Condition.txt"
+    timelist_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Floor.txt"
+    sensor_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Sensors.txt"
     # extract_pattern = r": \[\['\w+', (?:True:False)\]\]"
     extract_pattern = r"\['(\w+)', (?:True|False)\]"
 
