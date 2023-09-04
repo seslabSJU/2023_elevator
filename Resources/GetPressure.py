@@ -1,5 +1,9 @@
 import smbus2
+import time
 import datetime
+import Logging
+
+from config import Config_Log
 
 class Lps25hsensor:
     address = 0x5d
@@ -93,16 +97,24 @@ def binary_to_twos_complement(binary_value):
         val *= -1
         return val
 
+def Get_Pressure(terminate_event):
+    while not terminate_event.is_set():
+        sensor = Lps25hsensor(1)
+        sensor.setup()
+
+        hPa = sensor.read_pressure()
+        temp = sensor.read_temp()
+
+        MPa = hPa_to_MPa(hPa)
+        alt = Mpa_to_Altimeter(MPa)
+        
+        timestamp = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
+
+        Text = "Timestamp is {}\nAltimeter : {}\nTemperature : {}\n\n".format(timestamp, alt, temp)
+        print("Get Pressure at {}".format(timestamp))
+        
+        Config_Log.sensor_log_file_path = Config_Log.log_default_path + f"{timestamp}"
+        Logging.log_sensor(Text)
 
 if __name__ == '__main__':
-    sensor = Lps25hsensor(1)
-    sensor.setup()
-
-    hPa = sensor.read_pressure()
-    temp = sensor.read_temp()
-
-    MPa = hPa_to_MPa(hPa)
-    alt = Mpa_to_Altimeter(MPa)
-
-    Text = "{}\nAltimeter : {}m\nTemperature : {} Degree Celsius\n".format(datetime.now().strftime('%Y%m%d%H%M%S'), alt, temp)
-    print(Text)
+    pass

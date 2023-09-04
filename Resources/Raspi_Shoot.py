@@ -3,6 +3,7 @@ import datetime
 import logging
 import traceback
 import subprocess
+import multiprocessing
 from threading import Thread
 from config import Config_VideoCapture
 
@@ -29,7 +30,7 @@ def create_folder():
 
 def create_log(log_file_name, folder_name, message):
     try:
-        now = datetime.datetime.now()
+        now = datetime.datetime.now().replace(microsecond=0)
         timestamp = now.strftime("%Y%m%d%H%M%S")
         log_message = f"[Time :{timestamp}] -> {message}"
 
@@ -46,19 +47,19 @@ def run(folder_name, shoot_time, log_file_name):
         vid_command = "libcamera-vid"
         vid_width = " --width 1920"
         vid_height = " --height 1080"
-        vid_time = f" -t {shoot_time}"
+        vid_time = f" -t {shoot_time} -o "
 
-        now = datetime.datetime.now()
+        now = datetime.datetime.now().replace(microsecond=0)
         time = now.strftime("%Y%m%d%H%M%S")
 
-        vid_output = f" -o {Config_VideoCapture.default_path}" + folder_name + f"/Result/No1_{time}.h264"
+        vid_output = f"{Config_VideoCapture.default_path}" + folder_name + f"/No1_{time}.h264"
         # stream_output = " --save-pts " + folder_name + f"/Result/timestamps.txt"
         command = vid_command + vid_width + vid_height + vid_time + vid_output
 
         message = "Video Start"
         create_log(log_file_name, folder_name, message)
 
-        start_timestamp = datetime.datetime.now()
+        start_timestamp = now
         # os.system(command)
         thr = Thread(target=run_commad, args=(command,))
 
@@ -68,7 +69,7 @@ def run(folder_name, shoot_time, log_file_name):
         message = "Video End"
         create_log(log_file_name, folder_name, message)
 
-        return f"/home/user/Videos/libcamera_vid/Result/No1_{time}.h264", start_timestamp
+        return vid_output, start_timestamp
     except:
         logging.error(traceback.format_exc())
 
@@ -77,16 +78,15 @@ def run_commad(command):
     print(command)
     os.system(command)
 
-def shoot(cnt_max, time_per_cnt):
+def shoot(cnt_max, time_per_cnt, result_queue):
     folder_name = create_folder()
     cnt = 0
     while cnt != cnt_max:
         log_file_name = "No1_Vid1"
 
-        run(folder_name, time_per_cnt, log_file_name)
+        Video_File_Path, start_timestamp = run(folder_name, time_per_cnt, log_file_name)
+        result_queue.put((Video_File_Path, start_timestamp))
         cnt = cnt + 1
-
-    return 0
 
 
 if __name__ == '__main__':

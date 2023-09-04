@@ -16,35 +16,37 @@ try:
 except Exception as e:
     pass
 
-def make_list(image_name, Root_List, delta):
+def make_list(timestamp_str, Root_List, delta):
     alt, flr = Calculate_Elevator_Energy.Calculate_Current_Floor(config_SENSOR_LOG)
-    parsed_datetime = datetime.datetime.strptime(image_name, '%Y%m%d_%H%M%S')
+    parsed_datetime = datetime.datetime.strptime(timestamp_str, '%Y%m%d_%H%M%S')
 
     #Text = "Current Altimeter : {}m, Floor is {}\n".format(alt, flr)
     if Root_List.head is None:
-        node = Root_List.addNode()
-        node.set_time(parsed_datetime)
+        node = Root_List.addNode(parsed_datetime)
         node.set_currentFloor(flr)
         node.set_pressedButton(delta)
         node.set_InOut(1)
+        
     else:
         last = Root_List.last
+        last.timestamp = parsed_datetime
+        
         if parsed_datetime - last.timestamp >= datetime.timedelta(seconds=5):
             delta_not_last_pressed = [x for x in delta if x not in last.pressedButton]
             for floor in delta_not_last_pressed:
-                last.set_time(parsed_datetime)
                 last.add_pressedButton(floor)
         else:
-            node = Root_List.addNode()
-            node.set_time(parsed_datetime)
+            node = Root_List.addNode(parsed_datetime)
             node.set_currentFloor(flr)
             node.set_pressedButton(delta)
             node.set_InOut(1)
 
+    Root_List.printAllNodes()
     Text = Root_List.printLastNodes()
+    
     return Text
 
-def check_differential(frame, previous, now, root_List):
+def check_differential(timestamp_str, previous, now, root_List):
     bigger = previous if len(previous) > len(now) else now
     smaller = now if bigger == previous else previous
 
@@ -56,20 +58,21 @@ def check_differential(frame, previous, now, root_List):
     if len(previous) > len(now):
         if len(delta) == 1:
             Text += "Elevator Stops At {}th Floor".format(delta[0])
+            
         elif len(delta) >= 2:
             Text += "Elevator Stops At {}th Floor or Camera Blocked by Something".format(delta[0])
-        Text += make_list(frame, root_List, now)
+        Text += make_list(timestamp_str, root_List, now)
     elif len(previous) < len(now):
         Text += "Somebody Pressed the button "
-        Text += make_list(frame, root_List, delta)
+        Text += make_list(timestamp_str, root_List, delta)
     elif len(previous) == len(now) and previous != now:
         Text += "Button List has Changed "
-        Text += make_list(frame, root_List, now)
+        Text += make_list(timestamp_str, root_List, now)
 
     Logging.log_timelist(Text)
 
-def Extract_datetime(img_path):
-    pattern = r'frame_(\d{8}_\d{6})\.jpg'
+def Extract_datetime(img_path):    
+    pattern = r'(\d{8}_\d{6})\.jpg'
     match = re.search(pattern, img_path)
 
     if match:

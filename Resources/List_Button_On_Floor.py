@@ -6,8 +6,10 @@ class TimeList:
         self.head = None
         self.last = None
 
-    def addNode(self):
+    def addNode(self, timestamp):
         node = TimeNode()
+        node.set_time(timestamp)
+        
         if self.head is None and self.last is None:
             self.head = node
             self.last = node
@@ -17,6 +19,12 @@ class TimeList:
             last.next = node
             self.last = node
         return node
+
+    def find_Node(self, value):
+        pass
+
+    def removeNode(self):
+        pass
 
     def printLastNodes(self):
         Text = ""

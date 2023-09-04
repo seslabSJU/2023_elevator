@@ -113,6 +113,8 @@ class Config_Log:
     # log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Condition.txt"
     # timelist_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Floor.txt"
     # sensor_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Sensors.txt"
+    log_default_path = r"/home/user/Videos/Log/"
+    image_folder_path = r"/home/user/Videos/Pictures/"
     log_file_path = r"/home/user/Videos/Log/Log_Condition.txt"
     timelist_log_file_path = r"/home/user/Videos/Log/Log_Floor.txt"
     sensor_log_file_path = r"/home/user/Videos/Log/Log_Sensors.txt"

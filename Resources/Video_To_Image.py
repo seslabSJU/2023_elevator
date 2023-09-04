@@ -9,12 +9,9 @@ def extract_frames(video_path, output_folder, start_timestamp):
         os.makedirs(output_folder)
 
     # Open the video file
+    print(video_path)
     cap = cv2.VideoCapture(video_path)
     frame_count = 0
-
-    total_frame = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-    frame_rate = int(cap.get(cv2.CAP_PROP_FPS))
-    total_length_seconds = total_frame / frame_rate
 
     log_start = time.time()
     while True:

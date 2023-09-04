@@ -1,5 +1,5 @@
 import random
-
+import math
 import cv2
 import numpy as np
 
@@ -133,7 +133,9 @@ def detect_which_class_is_dot_in(image, label_text_path, class_list, contour_lis
     #print("Detect rate Lists are {}".format(detect_rate_list))
 
     for index, elem in enumerate(detect_rate_list[0]):
-        if detect_rate_list[0][-1] != 0 and elem >= int(detect_rate_list[1][0] * classfication_rate):
+        #print(detect_rate_list[1][0] * classfication_rate)
+        #print(elem)
+        if detect_rate_list[0][-1] != 0 and elem >= math.ceil(detect_rate_list[1][0] * classfication_rate):
             green_button_list.append(index)
     #print(green_button_list)
 
