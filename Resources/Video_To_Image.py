@@ -29,9 +29,9 @@ def extract_frames(video_path, output_folder, start_timestamp):
             timestamp_str = timestamp.strftime("%Y%m%d_%H%M%S")
 
             # Save the frame as an image
-            frame_filename = os.path.join(output_folder, f'frame_{timestamp_str}.jpg')
+            frame_filename = os.path.join(output_folder, f'{timestamp_str}.jpg')
 
-            print(f"Frames extracted and saved to {output_folder} as frame_{timestamp_str}.jpg")
+            print(f"Frames extracted and saved to {output_folder} as {timestamp_str}.jpg")
             cv2.imwrite(frame_filename, frame)
 
         frame_count += 1
@@ -40,6 +40,28 @@ def extract_frames(video_path, output_folder, start_timestamp):
 
     log_end = time.time()
     print("Time Spent is {} seconds".format(log_end-log_start))
+
+def Rotate_Frames(Frame_Foler_Path):
+    if not os.path.exists(Frame_Foler_Path):
+        print(f"Folder '{Frame_Foler_Path}' does not exist.")
+        return
+
+    file_list = sorted(os.listdir(Frame_Foler_Path))
+
+    # Iterate through the files in the folder
+    for filename in file_list:
+        file_path = os.path.join(Frame_Foler_Path, filename)
+
+        # Check if the file is an image (you can add more image extensions if needed)
+        if filename.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif')):
+            # Read the image
+            image = cv2.imread(file_path)
+
+            if image is not None:
+                # Rotate the image 90 degrees to the right
+                rotated_image = cv2.rotate(image, cv2.ROTATE_90_CLOCKWISE)
+                cv2.imwrite(file_path, rotated_image)
+                print(f"Rotated and saved: {file_path}")
 
 
 if __name__ == '__main__':

@@ -1,3 +1,4 @@
+import re
 import datetime
 import Detect_Color
 import Sort_image
@@ -15,27 +16,27 @@ try:
 except Exception as e:
     pass
 
-def make_list(frame, Root_List, delta):
+def make_list(image_name, Root_List, delta):
     alt, flr = Calculate_Elevator_Energy.Calculate_Current_Floor(config_SENSOR_LOG)
+    parsed_datetime = datetime.datetime.strptime(image_name, '%Y%m%d_%H%M%S')
+
     #Text = "Current Altimeter : {}m, Floor is {}\n".format(alt, flr)
     if Root_List.head is None:
         node = Root_List.addNode()
-        node.set_time(datetime.datetime.now().strftime('%Y%m%d%H%M%S'))
-        node.set_frame(frame)
+        node.set_time(parsed_datetime)
         node.set_currentFloor(flr)
         node.set_pressedButton(delta)
         node.set_InOut(1)
     else:
         last = Root_List.last
-        if frame - last.frame <= 30*5:
+        if parsed_datetime - last.timestamp >= datetime.timedelta(seconds=5):
             delta_not_last_pressed = [x for x in delta if x not in last.pressedButton]
             for floor in delta_not_last_pressed:
+                last.set_time(parsed_datetime)
                 last.add_pressedButton(floor)
-            last.set_frame(frame)
         else:
             node = Root_List.addNode()
-            node.set_time(datetime.datetime.now().strftime('%Y%m%d%H%M%S'))
-            node.set_frame(frame)
+            node.set_time(parsed_datetime)
             node.set_currentFloor(flr)
             node.set_pressedButton(delta)
             node.set_InOut(1)
@@ -43,7 +44,7 @@ def make_list(frame, Root_List, delta):
     Text = Root_List.printLastNodes()
     return Text
 
-def check_differential(frame, previous, now, Root_List):
+def check_differential(frame, previous, now, root_List):
     bigger = previous if len(previous) > len(now) else now
     smaller = now if bigger == previous else previous
 
@@ -57,14 +58,25 @@ def check_differential(frame, previous, now, Root_List):
             Text += "Elevator Stops At {}th Floor".format(delta[0])
         elif len(delta) >= 2:
             Text += "Elevator Stops At {}th Floor or Camera Blocked by Something".format(delta[0])
-        Text += make_list(frame, Root_List, now)
+        Text += make_list(frame, root_List, now)
     elif len(previous) < len(now):
         Text += "Somebody Pressed the button "
-        Text += make_list(frame, Root_List, delta)
+        Text += make_list(frame, root_List, delta)
     elif len(previous) == len(now) and previous != now:
         Text += "Button List has Changed "
-        Text += make_list(frame, Root_List, now)
-    List_Button_On_Floor.log_timelist(frame, Text)
+        Text += make_list(frame, root_List, now)
+
+    Logging.log_timelist(Text)
+
+def Extract_datetime(img_path):
+    pattern = r'frame_(\d{8}_\d{6})\.jpg'
+    match = re.search(pattern, img_path)
+
+    if match:
+        desired_string = match.group(1)
+        return desired_string
+    else:
+        return None
 
 def Detect(img_path):
     class_list = classid.get_class_id_list(config_DETECT.Detection_path['yaml_path'])
@@ -82,6 +94,8 @@ def Run():
     count = 1
 
     for img_path in images:
+        timestamp_str = Extract_datetime(img_path)
+        
         print("Reading Button Log From image {}...".format(img_path))
         config_DETECT.Detection_path['image_file_path'] = img_path
 
@@ -93,7 +107,7 @@ def Run():
             if previous_frame == -1:
                 previous_frame = frame
             if previous_green_button_list != now_green_button_list:
-                check_differential(frame, previous_green_button_list, now_green_button_list, root_list)
+                check_differential(timestamp_str, previous_green_button_list, now_green_button_list, root_list)
             else:
                 interval = float((frame-previous_frame)/30)
                 Logging.log_interval(interval)

@@ -25,3 +25,7 @@ def log_interval(interval):
     log = "Interval Between Previous Conditional Change is : {}s\n\n".format(interval)
     with open(config_LOG.timelist_log_file_path, "a") as f:
         f.write(log)
+        
+def log_timelist(Text):
+    with open(Config_Log.timelist_log_file_path, "a") as f:
+        f.write(Text)

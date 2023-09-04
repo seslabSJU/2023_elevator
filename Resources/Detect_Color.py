@@ -44,13 +44,14 @@ def detect_color(image_file_path, label_text_path, class_list):
         if value != 999:
             result.append(value)
 
-    #ViewLabel.display_label_info(img, label_text_path)
+    #View_Label.display_label_info(img, label_text_path)
     return result
 
 def check_contour_points(contour_list, hierarchy_list):
     new_hierarchy_list = []
     final_contour = []
     final_hierarchy = []
+    total_points = 0
 
     for i, hierarchy in enumerate(hierarchy_list):
         hierarchy = np.append(hierarchy, i)
@@ -63,6 +64,9 @@ def check_contour_points(contour_list, hierarchy_list):
         if area > config_DETECTION.Detection_Range['MinCircleArea']:
             final_contour.append(contour)
             final_hierarchy.append(np_new_hierarchy_list[i])
+            
+            total_points += len(contour)
+            #print("Total Dot Count is : {}".format(total_points))
 
     return final_contour, final_hierarchy
 
@@ -129,8 +133,9 @@ def detect_which_class_is_dot_in(image, label_text_path, class_list, contour_lis
     #print("Detect rate Lists are {}".format(detect_rate_list))
 
     for index, elem in enumerate(detect_rate_list[0]):
-        if elem >= int(detect_rate_list[1][0] * classfication_rate):
+        if detect_rate_list[0][-1] != 0 and elem >= int(detect_rate_list[1][0] * classfication_rate):
             green_button_list.append(index)
+    #print(green_button_list)
 
     return green_button_list
 

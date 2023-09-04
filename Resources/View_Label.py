@@ -21,6 +21,7 @@ def get_label_data(label_text_path):
         label_data.append((class_id, x, y, width, height))
 
     return label_data
+    
 def display_label_info(image, label_text_path):
     label_config = config.Config_Label()
     color_config = config.Config_Color()
@@ -62,6 +63,7 @@ def display_label_info(image, label_text_path):
         #                 font_color_black, label_config.Text['font_size'])
         #     text_offset += label_config.Text['height']
 
+    cv2.namedWindow('sample', cv2.WINDOW_NORMAL)
     cv2.imshow('sample', image)
     key = cv2.waitKey(0)
 

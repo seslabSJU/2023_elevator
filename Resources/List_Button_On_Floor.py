@@ -1,9 +1,6 @@
 import datetime
 import config
 
-def log_timelist(frame, Text):
-    with open(config.Config_Log.timelist_log_file_path, "a") as f:
-        f.write(Text)
 class TimeList:
     def __init__(self):
         self.head = None
@@ -24,9 +21,8 @@ class TimeList:
     def printLastNodes(self):
         Text = ""
         start = self.last
-        Text += "\nTimestamp is {}\nFrame is {}\n, Current Floor is {}\n, Button List is {}\n, InOut is {}\n\n".format(
-            start.timestamp,
-            start.frame,
+        Text += "\nTimestamp is {}\nCurrent Floor is {}\nButton List is {}\nInOut is {}\n\n".format(
+            datetime.datetime.strftime(start.timestamp, '%Y%m%d_%H%M%S'),
             start.currentFloor,
             start.pressedButton,
             start.InOut
@@ -37,9 +33,8 @@ class TimeList:
         Text = ""
         start = self.head
         while start is not None:
-            Text += "\nTimestamp is {}\nFrame is {}\n, Current Floor is {}\n, Button List is {}\n, InOut is {}\n\n".format(
-                start.timestamp,
-                start.frame,
+            Text += "\nTimestamp is {}\nCurrent Floor is {}\nButton List is {}\nInOut is {}\n\n".format(
+                datetime.datetime.strftime(start.timestamp, '%Y%m%d_%H%M%S'),
                 start.currentFloor,
                 start.pressedButton,
                 start.InOut
@@ -50,8 +45,7 @@ class TimeList:
 
 class TimeNode:
     def __init__(self):
-        self.timestamp = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
-        self.frame = 0
+        self.timestamp = None
         self.currentFloor = None
         self.pressedButton = []
         self.InOut = None
@@ -61,9 +55,6 @@ class TimeNode:
 
     def set_time(self, value):
         self.timestamp = value
-
-    def set_frame(self, value):
-        self.frame = value
 
     def set_currentFloor(self, value):
         self.currentFloor = value
