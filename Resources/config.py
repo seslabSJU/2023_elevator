@@ -119,7 +119,8 @@ class Config_Log:
     # extract_pattern = r": \[\['\w+', (?:True:False)\]\]"
     extract_pattern = r"\['(\w+)', (?:True|False)\]"
 
-
+class Config_VideoCapture:
+    default_path = f'/home/user/Videos/libcamera_vid/'
 
 class Config_Model:
     Model_Train = {

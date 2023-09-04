@@ -4,8 +4,8 @@ import logging
 import traceback
 import subprocess
 from threading import Thread
+from config import Config_VideoCapture
 
-default_path = f'/home/user/Videos/libcamera_vid/'
 second = 1000
 minute = 60 * second
 hour = 60 * minute
@@ -17,7 +17,7 @@ def create_folder():
     now = datetime.datetime.now()
 
     folder_name = now.strftime("%Y%m%d%H%M")
-    folder_path = default_path + folder_name
+    folder_path = Config_VideoCapture.default_path + folder_name
     result_folder_path = folder_path + "/Result"
 
     if not os.path.exists(folder_path):
@@ -33,7 +33,7 @@ def create_log(log_file_name, folder_name, message):
         timestamp = now.strftime("%Y%m%d%H%M%S")
         log_message = f"[Time :{timestamp}] -> {message}"
 
-        path = "/home/user/Videos/libcamera_vid/" + folder_name + f"/Result/{log_file_name}.txt"
+        path = Config_VideoCapture.default_path + folder_name + f"/Result/{log_file_name}.txt"
 
         with open(path, "a") as log_file:
             log_file.write(log_message + "\n")
@@ -51,7 +51,7 @@ def run(folder_name, shoot_time, log_file_name):
         now = datetime.datetime.now()
         time = now.strftime("%Y%m%d%H%M%S")
 
-        vid_output = f" -o /home/user/Videos/libcamera_vid/" + folder_name + f"/Result/No1_{time}.h264"
+        vid_output = f" -o {Config_VideoCapture.default_path}" + folder_name + f"/Result/No1_{time}.h264"
         # stream_output = " --save-pts " + folder_name + f"/Result/timestamps.txt"
         command = vid_command + vid_width + vid_height + vid_time + vid_output
 

@@ -1,4 +1,6 @@
+import datetime
 import os, sys
+import time
 import cv2_Detection
 import Raspi_Shoot
 import Video_To_Image
@@ -14,6 +16,9 @@ def Runner():
     except:
         pass
 
+    start = time.time()
+    Video_To_Image.extract_frames(test_video_location, picture_location, datetime.datetime.now())
+    end = time.time()
 
 if __name__ == '__main__':
-    cv2_Detection.Run()
+    Runner()
