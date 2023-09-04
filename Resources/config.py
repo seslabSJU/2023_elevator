@@ -1,11 +1,19 @@
 class Config_Detection:
+    # Detection_path = {
+    #     'image_folder_path': f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Real\Vid_No3_2023-06-30-15-03',
+    #     'sample_folder_path': f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Real\Sample',
+    #     'sample_file_path': f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Real\Vid_No3_2023-06-30-15-03\\frame_20130.jpg',
+    #     'image_file_path': f'',
+    #     'label_txt_path': f"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\cv2\config\Base3.txt",
+    #     'yaml_path': r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\cv2\config\data.yaml",
+    # }
     Detection_path = {
-        'image_folder_path': f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Real\Vid_No3_2023-06-30-15-03',
+        'image_folder_path': f'/home/user/Videos/Pictures',
+        'image_file_path': f'',
         'sample_folder_path': f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Real\Sample',
         'sample_file_path': f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Real\Vid_No3_2023-06-30-15-03\\frame_20130.jpg',
-        'image_file_path': f'',
-        'label_txt_path': f"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\cv2\config\Base3.txt",
-        'yaml_path': r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\cv2\config\data.yaml",
+        'label_txt_path': f"/home/user/Videos/configs/label.txt",
+        'yaml_path': r"/home/user/Videos/configs/data.yaml"
     }
     Detection_Range = {
         'MinCircleArea': 0.0,
@@ -102,9 +110,12 @@ class Config_Elevator_SW:
 
 
 class Config_Log:
-    log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Condition.txt"
-    timelist_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Floor.txt"
-    sensor_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Sensors.txt"
+    # log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Condition.txt"
+    # timelist_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Floor.txt"
+    # sensor_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Sensors.txt"
+    log_file_path = r"/home/user/Videos/Log/Log_Condition.txt"
+    timelist_log_file_path = r"/home/user/Videos/Log/Log_Floor.txt"
+    sensor_log_file_path = r"/home/user/Videos/Log/Log_Sensors.txt"
     # extract_pattern = r": \[\['\w+', (?:True:False)\]\]"
     extract_pattern = r"\['(\w+)', (?:True|False)\]"
 

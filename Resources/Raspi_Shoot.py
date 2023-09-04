@@ -58,6 +58,7 @@ def run(folder_name, shoot_time, log_file_name):
         message = "Video Start"
         create_log(log_file_name, folder_name, message)
 
+        start_timestamp = datetime.datetime.now()
         # os.system(command)
         thr = Thread(target=run_commad, args=(command,))
 
@@ -67,7 +68,7 @@ def run(folder_name, shoot_time, log_file_name):
         message = "Video End"
         create_log(log_file_name, folder_name, message)
 
-        return 0
+        return f"/home/user/Videos/libcamera_vid/Result/No1_{time}.h264", start_timestamp
     except:
         logging.error(traceback.format_exc())
 
@@ -76,15 +77,13 @@ def run_commad(command):
     print(command)
     os.system(command)
 
-def shoot(cnt_max):
+def shoot(cnt_max, time_per_cnt):
     folder_name = create_folder()
     cnt = 0
     while cnt != cnt_max:
-        # shoot_time = 1 * minute
-        shoot_time = 10 * second
         log_file_name = "No1_Vid1"
 
-        run(folder_name, shoot_time, log_file_name)
+        run(folder_name, time_per_cnt, log_file_name)
         cnt = cnt + 1
 
     return 0
@@ -92,8 +91,9 @@ def shoot(cnt_max):
 
 if __name__ == '__main__':
     cnt_max = 3
+    time_per_cnt = 30 * minute
     try:
-        shoot(cnt_max)
+        shoot(cnt_max, time_per_cnt)
     except:
         logging.error(traceback.format_exc())
 
