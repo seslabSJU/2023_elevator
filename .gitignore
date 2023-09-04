@@ -6,10 +6,11 @@ __pycache__/
 #My Custom
 /Images_Real
 /Images_Sample
+/Roboflow
 /Videos
+/yolov8
 *.mp4
 *.h264
-*.jpg
 *.pt
 *.onnx
 *.engine
