@@ -122,7 +122,7 @@ class Config_VideoCapture:
 
 class Config_DefaultPath:
     home_path = None
-    default_path = None
+    code_default_path = None
     folder_default_path = None
     video_capture_default_path = None
     log_default_path = None

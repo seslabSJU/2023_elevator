@@ -29,6 +29,7 @@ def Runner():
     
     start = time.time()
     Make_Dirs.make_dirs_for_program()
+    Make_Dirs.make_files_for_program()
 
     #start = time.time()
     #result_queue = multiprocessing.Queue()
