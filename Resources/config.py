@@ -113,26 +113,23 @@ class Config_Log:
     # log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Condition.txt"
     # timelist_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Floor.txt"
     # sensor_log_file_path = r"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Log\Button_Logs\Log_Sensors.txt"
-    log_default_path = r"/home/user/Videos/Log/"
-    image_folder_path = r"/home/user/Videos/Pictures/"
-    log_file_path = r"/home/user/Videos/Log/Log_Condition.txt"
-    timelist_log_file_path = r"/home/user/Videos/Log/Log_Floor.txt"
-    sensor_log_file_path = r"/home/user/Videos/Log/Log_Sensors.txt"
     # extract_pattern = r": \[\['\w+', (?:True:False)\]\]"
     extract_pattern = r"\['(\w+)', (?:True|False)\]"
 
 class Config_VideoCapture:
-    video_caputure_dir_path = None
-    video_caputure_result_dir_path = None
-    default_path = f'/home/user/Videos/libcamera_vid/'
+    video_capture_dir_path = None
+    video_capture_result_dir_path = None
 
 class Config_DefaultPath:
     home_path = None
     default_path = None
-    folder_deafult_path = None
-    video_capture_deafult_path = None
+    folder_default_path = None
+    video_capture_default_path = None
     log_default_path = None
     picture_default_path = None
+    config_default_path = None
+    label_txt_default_path = None
+    yaml_default_path = None
 
 class Config_Model:
     Model_Train = {

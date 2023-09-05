@@ -1,9 +1,9 @@
+import os
 import yaml
 import re
 
 try:
-    from config import Config_Log
-    config_LOG = Config_Log
+    from config import Config_DefaultPath, Config_Log
 
 except Exception as e:
     pass
@@ -26,12 +26,14 @@ def print_class_id(class_id_list, yaml_path):
             label_text = f"Class ID: {class_id}"
 
 def get_classid_list_from_log():
-    log_path = config_LOG.log_file_path
-    target_pattern = config_LOG.extract_pattern
+    txt_name = "Log_Condition.txt"
+    target_pattern = Config_Log.extract_pattern
 
     extracted_data = []
 
-    with open(log_path, 'r') as file:
+    os.chdir(Config_DefaultPath.config_default_path)
+
+    with open(txt_name, 'r') as file:
         line_number = 1
         for line in file:
             print("Reading Line Number {}".format(line_number))

@@ -28,10 +28,8 @@ def Runner():
     total_time = 0
     
     start = time.time()
-    Make_Dirs.make_dirs_for_videocapture()
-    Make_Dirs.make_dirs_for_logs(Config_DefaultPath.folder_deafult_path)
-    
-    
+    Make_Dirs.make_dirs_for_program()
+
     #start = time.time()
     #result_queue = multiprocessing.Queue()
     #terminate_event = multiprocessing.Event()
@@ -54,7 +52,7 @@ def Runner():
     Video_File_Path, start_timestamp = Capture_Video()
 
     picture_folder_name = start_timestamp.strftime("%Y%m%d_%H%M%S")
-    picture_location = Config_Log.image_folder_path + picture_folder_name
+    picture_location = f"{Config_DefaultPath.picture_default_path}/{picture_folder_name}"
 
     start = time.time()
     Video_To_Image.extract_frames(Video_File_Path, picture_location, start_timestamp)
@@ -72,11 +70,8 @@ def Runner():
     start = time.time()
     #picture_location = '/home/user/Videos/Pictures/20230904_183111'
     Config_Detection.Detection_path['image_folder_path'] = picture_location
-    
-    Config_Log.log_file_path = Config_Log.log_default_path + f"{picture_folder_name}"
-    Config_Log.timelist_log_file_path = Config_Log.log_default_path + f"{picture_folder_name}"
-    
     cv2_Detection.Run()
+
     end = time.time()
     print("Interval Button Detection : {}".format(end - start))
     total_time += end-start

@@ -3,7 +3,7 @@ import re
 import config
 
 try:
-    from config import Config_Elevator_SW, Config_Elevator_HW, Config_Log
+    from config import Config_Elevator_SW, Config_Elevator_HW, Config_DefaultPath
     config_EH = config.Config_Elevator_HW
     config_ES = config.Config_Elevator_SW
 
@@ -16,31 +16,40 @@ try:
     First_floor_altitude = config_EH.First_Floor_Altitude
     current_floor_altitude = config_EH.Current_Floor_Altitude
 
-    log_sensor = config.Config_Log.sensor_log_file_path
 
 except Exception as e:
     pass
-def Calculate_Current_Floor(log_sensor):
-    with open(log_sensor, 'r') as f:
-        text = f.read()
+def Calculate_Current_Floor():
 
-    altitude_pattern = r"Altimeter : (-?\d+\.\d+)m"
-    temperature_pattern = r"Temperature : (\d+\.\d+) Degree Celsius"
 
-    altitude_match = re.search(altitude_pattern, text)
-    temperature_match = re.search(temperature_pattern, text)
+    if Config_DefaultPath.log_default_path is None:
+        print("Error in Calculate_Elevator_Energy, log_default_path is None\n")
+        exit(1)
 
-    if altitude_match and temperature_match:
-        altitude = float(altitude_match.group(1))
-        temperature = float(temperature_match.group(1))
-
-        current_floor_altitude = altitude - First_floor_altitude
-        current_floor = current_floor_altitude / Height_Per_Floor
-
-        return round(altitude,4), round(current_floor, 4)
     else:
+        txt_name = "Log_Sensors.txt"
 
-        return None
+        os.chdir(Config_DefaultPath.log_default_path)
+        with open(txt_name, 'r') as f:
+            text = f.read()
+
+        altitude_pattern = r"Altimeter : (-?\d+\.\d+)m"
+        temperature_pattern = r"Temperature : (\d+\.\d+) Degree Celsius"
+
+        altitude_match = re.search(altitude_pattern, text)
+        temperature_match = re.search(temperature_pattern, text)
+
+        if altitude_match and temperature_match:
+            altitude = float(altitude_match.group(1))
+            temperature = float(temperature_match.group(1))
+
+            current_floor_altitude = altitude - First_floor_altitude
+            current_floor = current_floor_altitude / Height_Per_Floor
+
+            return round(altitude,4), round(current_floor, 4)
+        else:
+
+            return None
 
 def Calculate_Usage_Intesity_Category(Intensity, Usage_Intensity):
     for index, key in enumerate(Usage_Intensity):
@@ -69,7 +78,7 @@ def Calculate_Average_Travel_Distance(Usage_Intensity, Stopping_Floors):
 
 if __name__ == '__main__':
     #pass
-    alt, flr = Calculate_Current_Floor(log_sensor)
+    alt, flr = Calculate_Current_Floor()
     print("{} {}".format(alt, flr))
     # intensity = Calculate_Usage_Intesity_Category(2500, usage_intensity)
     # sav = Calculate_Average_Travel_Distance(intensity, 5)

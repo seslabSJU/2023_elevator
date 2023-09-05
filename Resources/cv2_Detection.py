@@ -8,16 +8,15 @@ import Calculate_Elevator_Energy
 import Logging
 
 try:
-    from config import Config_Detection, Config_Elevator_SW, Config_Log
+    from config import Config_Detection, Config_Elevator_SW, Config_Log, Config_DefaultPath
     config_DETECT = Config_Detection
     config_ELEVATOR_SW = Config_Elevator_SW
-    config_SENSOR_LOG = Config_Log.sensor_log_file_path
 
 except Exception as e:
     pass
 
 def make_list(timestamp_str, Root_List, delta):
-    alt, flr = Calculate_Elevator_Energy.Calculate_Current_Floor(config_SENSOR_LOG)
+    alt, flr = Calculate_Elevator_Energy.Calculate_Current_Floor()
     parsed_datetime = datetime.datetime.strptime(timestamp_str, '%Y%m%d_%H%M%S')
 
     #Text = "Current Altimeter : {}m, Floor is {}\n".format(alt, flr)
@@ -71,15 +70,20 @@ def check_differential(timestamp_str, previous, now, root_List):
 
     Logging.log_timelist(Text)
 
-def Extract_datetime(img_path):    
-    pattern = r'(\d{8}_\d{6})\.jpg'
-    match = re.search(pattern, img_path)
+def Extract_datetime(img_path):
+    if Config_DefaultPath.picture_default_path is None:
+        print("Error in Calculate_Elevator_Energy, picture_default_path is None\n")
+        exit(1)
 
-    if match:
-        desired_string = match.group(1)
-        return desired_string
     else:
-        return None
+        pattern = r'(\d{8}_\d{6})\.jpg'
+        match = re.search(pattern, img_path)
+
+        if match:
+            desired_string = match.group(1)
+            return desired_string
+        else:
+            return None
 
 def Detect(img_path):
     class_list = classid.get_class_id_list(config_DETECT.Detection_path['yaml_path'])
@@ -88,7 +92,7 @@ def Detect(img_path):
     return now_green_button_list
 
 def Run():
-    images = Sort_image.get_images(config_DETECT.Detection_path['image_folder_path'])
+    images = Sort_image.get_images(Config_DefaultPath.picture_default_path)
 
     root_list = List_Button_On_Floor.TimeList()
     previous_green_button_list = []
