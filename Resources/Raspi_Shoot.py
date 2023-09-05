@@ -5,54 +5,68 @@ import traceback
 import subprocess
 import multiprocessing
 from threading import Thread
-from config import Config_VideoCapture
+from config import Config_VideoCapture, Config_DefaultPath
 
 second = 1000
 minute = 60 * second
 hour = 60 * minute
 day = 24 * hour
+timestamp = datetime.datetime.now().replace(microsecond=0)
+
 logging.basicConfig(filename='./test.log', level=logging.INFO)
 
 
 def create_folder():
-    now = datetime.datetime.now()
+    #now = datetime.datetime.now()
 
-    folder_name = now.strftime("%Y%m%d%H%M")
-    folder_path = Config_VideoCapture.default_path + folder_name
-    result_folder_path = folder_path + "/Result"
+    if Config_DefaultPath.video_capture_deafult_path is None:
+        print("In Raspi Shoot, Config_DefaultPath.video_capture_deafult_path is None")
+        exit(0)
+                
+    dir_name = timestamp.strftime("%Y%m%d%H%M")
 
-    if not os.path.exists(folder_path):
-        os.mkdir(folder_path)
-        os.mkdir(result_folder_path)
+    os.chdir(Config_DefaultPath.video_capture_deafult_path)
+    if not os.path.exists(dir_name):
+        os.mkdir(dir_name)
+    
+    os.chdir(dir_name)
+    video_caputure_dir_path = os.getcwd()
+    
+    dir_name = "Result"
+    if not os.path.exists(dir_name):
+        os.mkdir(dir_name)
+        
+    os.chdir(dir_name)
+    video_caputure_result_dir_path = os.getcwd()
+    
+    print(video_caputure_dir_path)
+    print(video_caputure_result_dir_path)
+    Config_VideoCapture.video_caputure_dir_path = video_caputure_dir_path
+    Config_VideoCapture.video_caputure_result_dir_path = video_caputure_result_dir_path
 
-    return folder_name
-
-
-def create_log(log_file_name, folder_name, message):
+def create_log(log_file_name, message):
     try:
-        now = datetime.datetime.now().replace(microsecond=0)
+        os.chdir(Config_VideoCapture.video_caputure_result_dir_path)
         timestamp = now.strftime("%Y%m%d%H%M%S")
         log_message = f"[Time :{timestamp}] -> {message}"
 
-        path = Config_VideoCapture.default_path + folder_name + f"/Result/{log_file_name}.txt"
+        log_file_name = f"{log_file_name}.txt"
 
-        with open(path, "a") as log_file:
+        with open(log_file_name, "a") as log_file:
             log_file.write(log_message + "\n")
     except:
         logging.error(traceback.format_exc())
 
 
-def run(folder_name, shoot_time, log_file_name):
+def run(shoot_time, log_file_name):
     try:
+        
         vid_command = "libcamera-vid"
         vid_width = " --width 1920"
         vid_height = " --height 1080"
         vid_time = f" -t {shoot_time} -o "
 
-        now = datetime.datetime.now().replace(microsecond=0)
-        time = now.strftime("%Y%m%d%H%M%S")
-
-        vid_output = f"{Config_VideoCapture.default_path}" + folder_name + f"/No1_{time}.h264"
+        vid_output = f"{Config_VideoCapture.video_caputure_dir_path}" + f"/No_{timestamp}.h264"
         # stream_output = " --save-pts " + folder_name + f"/Result/timestamps.txt"
         command = vid_command + vid_width + vid_height + vid_time + vid_output
 
@@ -60,14 +74,14 @@ def run(folder_name, shoot_time, log_file_name):
         create_log(log_file_name, folder_name, message)
 
         start_timestamp = now
-        # os.system(command)
+
         thr = Thread(target=run_commad, args=(command,))
 
         thr.start()
         thr.join()
 
         message = "Video End"
-        create_log(log_file_name, folder_name, message)
+        create_log(log_file_name, message)
 
         return vid_output, start_timestamp
     except:
@@ -78,20 +92,21 @@ def run_commad(command):
     print(command)
     os.system(command)
 
-def shoot(cnt_max, time_per_cnt, result_queue):
-    folder_name = create_folder()
+def shoot(cnt_max, time_per_cnt):
+    create_folder()
     cnt = 0
     while cnt != cnt_max:
-        log_file_name = "No1_Vid1"
+        log_file_name = "No3_"
 
-        Video_File_Path, start_timestamp = run(folder_name, time_per_cnt, log_file_name)
-        result_queue.put((Video_File_Path, start_timestamp))
+        Video_File_Path, start_timestamp = run(time_per_cnt, log_file_name)
         cnt = cnt + 1
+    
+    return Video_File_Path, start_timestamp
 
 
 if __name__ == '__main__':
-    cnt_max = 3
-    time_per_cnt = 30 * minute
+    cnt_max = 1
+    time_per_cnt = 5 * second
     try:
         shoot(cnt_max, time_per_cnt)
     except:
