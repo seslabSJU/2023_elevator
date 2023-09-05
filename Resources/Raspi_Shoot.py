@@ -47,7 +47,7 @@ def create_folder():
 def create_log(log_file_name, message):
     try:
         os.chdir(Config_VideoCapture.video_caputure_result_dir_path)
-        timestamp = now.strftime("%Y%m%d%H%M%S")
+        timestamp_str = timestamp.strftime("%Y%m%d%H%M%S")
         log_message = f"[Time :{timestamp}] -> {message}"
 
         log_file_name = f"{log_file_name}.txt"
@@ -59,33 +59,28 @@ def create_log(log_file_name, message):
 
 
 def run(shoot_time, log_file_name):
-    try:
-        
-        vid_command = "libcamera-vid"
-        vid_width = " --width 1920"
-        vid_height = " --height 1080"
-        vid_time = f" -t {shoot_time} -o "
+    vid_command = "libcamera-vid"
+    vid_width = " --width 1920"
+    vid_height = " --height 1080"
+    vid_time = f" -t {shoot_time} -o "
+    timestamp_str = timestamp.strftime("%Y%m%d%H%M%S")
+    
+    vid_output = f"{Config_VideoCapture.video_caputure_dir_path}" + f"/No_{timestamp_str}.h264"
+    # stream_output = " --save-pts " + folder_name + f"/Result/timestamps.txt"
+    command = vid_command + vid_width + vid_height + vid_time + vid_output
 
-        vid_output = f"{Config_VideoCapture.video_caputure_dir_path}" + f"/No_{timestamp}.h264"
-        # stream_output = " --save-pts " + folder_name + f"/Result/timestamps.txt"
-        command = vid_command + vid_width + vid_height + vid_time + vid_output
+    message = "Video Start"
+    create_log(timestamp, message)
 
-        message = "Video Start"
-        create_log(log_file_name, folder_name, message)
+    thr = Thread(target=run_commad, args=(command,))
 
-        start_timestamp = now
+    thr.start()
+    thr.join()
 
-        thr = Thread(target=run_commad, args=(command,))
+    message = "Video End"
+    create_log(log_file_name, message)
 
-        thr.start()
-        thr.join()
-
-        message = "Video End"
-        create_log(log_file_name, message)
-
-        return vid_output, start_timestamp
-    except:
-        logging.error(traceback.format_exc())
+    return vid_output, timestamp
 
 
 def run_commad(command):

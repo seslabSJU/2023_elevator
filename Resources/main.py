@@ -9,7 +9,7 @@ import GetPressure
 import Raspi_Shoot
 import Video_To_Image
 
-from config import Config_Detection, Config_Log
+from config import Config_Detection, Config_Log, Config_DefaultPath
 
 #test_video_location = f'/home/user/Videos/vid/No1_2023-06-30-14:50.h264'
 #video_name = f'No1_2023-06-30-14:50.h264'
@@ -18,7 +18,8 @@ def Capture_Video():
     cnt_max = 1
     time_per_cnt = 5 * Raspi_Shoot.second
     
-    Raspi_Shoot.shoot(cnt_max, time_per_cnt)
+    Video_File_Path, start_timestamp = Raspi_Shoot.shoot(cnt_max, time_per_cnt)
+    return Video_File_Path, start_timestamp
     
 def Capture_Sensor(terminate_event):
     GetPressure.Get_Pressure(terminate_event)
@@ -28,7 +29,7 @@ def Runner():
     
     start = time.time()
     Make_Dirs.make_dirs_for_videocapture()
-    Make_Dirs.make_dirs_for_logs()
+    Make_Dirs.make_dirs_for_logs(Config_DefaultPath.folder_deafult_path)
     
     
     #start = time.time()

@@ -117,4 +117,18 @@ def Get_Pressure(terminate_event):
         Logging.log_sensor(Text)
 
 if __name__ == '__main__':
+    sensor = Lps25hsensor(1)
+    sensor.setup()
+
+    hPa = sensor.read_pressure()
+    temp = sensor.read_temp()
+
+    MPa = hPa_to_MPa(hPa)
+    alt = Mpa_to_Altimeter(MPa)
+    
+    timestamp = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
+
+    Text = "Timestamp is {}\nAltimeter : {}\nTemperature : {}\n\n".format(timestamp, alt, temp)
+    print("Get Pressure at {}".format(timestamp))
+    print(Text)
     pass
