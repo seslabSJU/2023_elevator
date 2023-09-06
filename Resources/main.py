@@ -45,7 +45,7 @@ def Test():
     Make_Dirs.make_files_for_program()
     
     start = time.time()
-    Get_Pressure()
+    #Get_Pressure()
     capture_video_thread = threading.Thread(target=Capture_Video)
     capture_video_thread.start()
     capture_video_thread.join()

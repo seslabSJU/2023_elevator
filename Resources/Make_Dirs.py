@@ -81,9 +81,11 @@ def make_files_for_program():
 		
 		label_txt_name = "label.txt"
 		yaml_name = "data.yaml"
+		log_sensor_txt_name = "Log_Sensors.txt"
 		
 		shutil.copy(label_txt_name, Config_DefaultPath.config_default_path)
 		shutil.copy(yaml_name, Config_DefaultPath.config_default_path)
+		shutil.copy(log_sensor_txt_name, Config_DefaultPath.log_default_path)
 		
 		Config_Detection.Detection_path['label_txt_path'] = f"{Config_DefaultPath.config_default_path}/{label_txt_name}"
 		Config_Detection.Detection_path['yaml_path'] = f"{Config_DefaultPath.config_default_path}/{yaml_name}"
