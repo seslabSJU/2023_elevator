@@ -1,3 +1,22 @@
+<How To Use>
+1. install by ZIP or git clone
+2. go to Effective-Elevator-Energy-Calculation-for-SejongAI-Center directory
+3. pip3 install -r requirements.txt
+4. sudo apt-get install python3-opencv (not installed by pip3 due to slow installation speed on CMake build)
+5. cd Resources
+6. python3 main.py
+
+Result will be on /home/user/Desktop/Elevator_Results
+
+If you want to Register this as Linux Daemon and Timer
+7. cd Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Resources
+8. move Raspi_Daemon.service, and Raspi_Daemon.timer to /etc/systemd/system
+	- you can rename service as you want
+	- if you rename service name, you should edit service name inside of timer file too
+8. sudo systemctl daemon-reload
+9. sudo systemctl enable <name of timer>
+
+Below is Working MD of PPT
 <a name="br1"></a> 
 
 **TP-2023-0081**

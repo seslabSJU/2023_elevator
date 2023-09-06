@@ -76,7 +76,8 @@ def make_files_for_program():
 		exit(1)
 		
 	else:
-		os.chdir(Config_DefaultPath.code_default_path)
+		#os.chdir(Config_DefaultPath.code_default_path)
+		os.chdir('/home/user/Desktop/Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Resources')
 		os.chdir('config')
 		
 		label_txt_name = "label.txt"

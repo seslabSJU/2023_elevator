@@ -1,7 +1,5 @@
 import os
 import datetime
-import logging
-import traceback
 import subprocess
 import multiprocessing
 from threading import Thread
@@ -12,9 +10,6 @@ minute = 60 * second
 hour = 60 * minute
 day = 24 * hour
 timestamp = datetime.datetime.now().replace(microsecond=0)
-
-logging.basicConfig(filename='./test.log', level=logging.INFO)
-
 
 def create_folder():
     #now = datetime.datetime.now()
@@ -106,8 +101,5 @@ def shoot(cnt_max, time_per_cnt):
 if __name__ == '__main__':
     cnt_max = 1
     time_per_cnt = 5 * second
-    try:
-        shoot(cnt_max, time_per_cnt)
-    except:
-        logging.error(traceback.format_exc())
+    shoot(cnt_max, time_per_cnt)
 

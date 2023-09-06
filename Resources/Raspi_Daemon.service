@@ -2,7 +2,8 @@
 Description=Automatic Video Shooting When Turned On
 
 [Service]
-ExecStart=/usr/bin/python3 /home/user/Videos/libcamera_vid/run.py >> /home/user/Videos/libcamera_vid/log_info.log 2>&1
+User=user
+ExecStart=/usr/bin/python3 /home/user/Desktop/Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Resources/main.py >> /home/user/Desktop/service_log.log
 
 [Install]
 WantedBy=default.target

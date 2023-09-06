@@ -1,9 +1,11 @@
-import os, sys
+import os
+import sys
+import logging, traceback
 import datetime
 import time
-import multiprocessing
 import threading
 import queue
+
 import Make_Dirs
 import cv2_Detection
 import GetPressure
@@ -18,10 +20,11 @@ from GetPressure import Get_Pressure
 
 stop_pressure = False
 result_queue = queue.Queue()
+logging.basicConfig(filename='/home/user/Desktop/service_log.log', level=logging.ERROR)
 
 def Capture_Video():
     cnt_max = 1
-    time_per_cnt = 5 * Raspi_Shoot.second
+    time_per_cnt = 10 * Raspi_Shoot.second
     
     Video_File_Path, start_timestamp = Raspi_Shoot.shoot(cnt_max, time_per_cnt)
     result_queue.put((Video_File_Path, start_timestamp))
