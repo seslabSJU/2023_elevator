@@ -29,7 +29,7 @@ def make_dirs_for_program():
 		exit(1)
 
 	else:
-		print("Default Path is {}".format(folder_default_path))
+		#print("Default Path is {}".format(folder_default_path))
 		
 		os.chdir(folder_default_path)
 		dir_name = "Logs"
@@ -79,7 +79,7 @@ def make_files_for_program():
 		os.chdir(Config_DefaultPath.code_default_path)
 		os.chdir('config')
 		
-		label_txt_name = "Base.txt"
+		label_txt_name = "label.txt"
 		yaml_name = "data.yaml"
 		
 		shutil.copy(label_txt_name, Config_DefaultPath.config_default_path)

@@ -23,7 +23,7 @@ def create_folder():
         print("In Raspi Shoot, Config_DefaultPath.video_capture_default_path is None")
         exit(0)
                 
-    dir_name = timestamp.strftime("%Y%m%d%H%M")
+    dir_name = timestamp.strftime("%Y%m%d%H%M%S")
 
     os.chdir(Config_DefaultPath.video_capture_default_path)
     if not os.path.exists(dir_name):
@@ -39,23 +39,20 @@ def create_folder():
     os.chdir(dir_name)
     video_capture_result_dir_path = os.getcwd()
     
-    print(video_caputure_dir_path)
-    print(video_capture_result_dir_path)
+    #print(video_caputure_dir_path)
+    #print(video_capture_result_dir_path)
     Config_VideoCapture.video_capture_dir_path = video_caputure_dir_path
     Config_VideoCapture.video_capture_result_dir_path = video_capture_result_dir_path
 
 def create_log(log_file_name, message):
-    try:
-        os.chdir(Config_VideoCapture.video_capture_result_dir_path)
-        timestamp_str = timestamp.strftime("%Y%m%d%H%M%S")
-        log_message = f"[Time :{timestamp}] -> {message}"
+    os.chdir(Config_VideoCapture.video_capture_result_dir_path)
+    timestamp_str = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    
+    log_message = f"[Time :{timestamp_str}] -> {message}"
+    txt_name = f"{log_file_name}.txt"
 
-        log_file_name = f"{log_file_name}.txt"
-
-        with open(log_file_name, "a") as log_file:
-            log_file.write(log_message + "\n")
-    except:
-        logging.error(traceback.format_exc())
+    with open(txt_name, "a") as log_file:
+        log_file.write(log_message + "\n")
 
 
 def run(shoot_time, log_file_name):
@@ -70,7 +67,7 @@ def run(shoot_time, log_file_name):
     command = vid_command + vid_width + vid_height + vid_time + vid_output
 
     message = "Video Start"
-    create_log(timestamp, message)
+    create_log(log_file_name, message)
 
     thr = Thread(target=run_commad, args=(command,))
 
@@ -84,7 +81,7 @@ def run(shoot_time, log_file_name):
 
 
 def run_commad(command):
-    print(command)
+    #print(command)
     os.system(command)
 
 def shoot(cnt_max, time_per_cnt):
@@ -94,7 +91,7 @@ def shoot(cnt_max, time_per_cnt):
     start_timestamp = None
 
     while cnt != cnt_max:
-        log_file_name = "No3_"
+        log_file_name = f"No1_{timestamp.strftime('%Y%m%d%H%M')}"
 
         video_file_path, start_timestamp = run(time_per_cnt, log_file_name)
         cnt = cnt + 1

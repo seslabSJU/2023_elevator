@@ -21,7 +21,6 @@ except Exception as e:
     pass
 def Calculate_Current_Floor():
 
-
     if Config_DefaultPath.log_default_path is None:
         print("Error in Calculate_Elevator_Energy, log_default_path is None\n")
         exit(1)
@@ -32,24 +31,31 @@ def Calculate_Current_Floor():
         os.chdir(Config_DefaultPath.log_default_path)
         with open(txt_name, 'r') as f:
             text = f.read()
+            
+        altitude_pattern = r"Altimeter : (-?\d+\.\d+)"
+        temperature_pattern = r"Temperature : (-?\d+\.\d+)"
 
-        altitude_pattern = r"Altimeter : (-?\d+\.\d+)m"
-        temperature_pattern = r"Temperature : (\d+\.\d+) Degree Celsius"
-
-        altitude_match = re.search(altitude_pattern, text)
-        temperature_match = re.search(temperature_pattern, text)
-
-        if altitude_match and temperature_match:
-            altitude = float(altitude_match.group(1))
-            temperature = float(temperature_match.group(1))
+        altitude_match = re.findall(altitude_pattern, text)
+        temperature_match = re.findall(temperature_pattern, text)
+        
+        #print(altitude_match)
+        #print(temperature_match)
+        
+        if altitude_match[-1] and temperature_match[-1]:
+            altitude = round(float(altitude_match[-1]))
+            temperature = round(float(temperature_match[-1]), 4)
 
             current_floor_altitude = altitude - First_floor_altitude
             current_floor = current_floor_altitude / Height_Per_Floor
 
+            #print(round(altitude,4))
+            #print(round(current_floor, 4))
+
             return round(altitude,4), round(current_floor, 4)
         else:
-
-            return None
+            print("Error Occured in Calculate,Elevator_Energy, Alt, and Temp value is None")
+            exit(1)
+            #return None
 
 def Calculate_Usage_Intesity_Category(Intensity, Usage_Intensity):
     for index, key in enumerate(Usage_Intensity):

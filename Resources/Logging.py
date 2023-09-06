@@ -31,6 +31,7 @@ def log_interval(interval):
         exit(1)
 
     else:
+        os.chdir(Config_DefaultPath.log_default_path)
         txt_name = "Log_Floor_Lists.txt"
         log = "Interval Between Previous Conditional Change is : {}s\n\n".format(interval)
         with open(txt_name, "a") as f:
@@ -41,6 +42,7 @@ def log_timelist(Text):
         print("Error in Logging, Log Default Path is None\n")
         exit(1)
     else:
+        os.chdir(Config_DefaultPath.log_default_path)
         txt_name = "Log_Floor_Lists.txt"
         with open("Log_Floor_Lists.txt", "a") as f:
             f.write(Text)
@@ -49,8 +51,9 @@ def log_sensor(Text):
     if Config_DefaultPath.log_default_path is None:
         print("Error in Logging, Log Default Path is None\n")
         exit(1)
-
+    
     else:
-        txt_name = "Sensors.txt"
+        os.chdir(Config_DefaultPath.log_default_path)
+        txt_name = "Log_Sensors.txt"
         with open(txt_name, "a") as f:
             f.write(Text)

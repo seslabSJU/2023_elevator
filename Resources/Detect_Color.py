@@ -2,16 +2,12 @@ import random
 import math
 import cv2
 import numpy as np
-
-import config
+import os
 import View_Label
 import Sort_image
 
 try:
     from config import Config_Detection, Config_Color, Config_Elevator_SW
-    config_DETECTION = config.Config_Detection()
-    config_COLOR = config.Config_Color()
-    config_ES = config.Config_Elevator_SW
 
 except Exception as e:
     pass
@@ -23,10 +19,12 @@ except Exception as e:
 #         img = cv2.imread(p)
 #         detect_color(img)
 
-def detect_color(image_file_path, label_text_path, class_list):
-    img = cv2.imread(image_file_path)
-    lowest_color_to_detect = np.array(config_COLOR.Color_CV2['cv2_inrange_lowest'], dtype="uint8")
-    highest_color_to_detect = np.array(config_COLOR.Color_CV2['cv2_inrange_highest'], dtype="uint8")
+def detect_color(image_name, label_text_path, class_list):
+    os.chdir(Config_Detection.Detection_path['image_folder_path'])
+    
+    img = cv2.imread(image_name)
+    lowest_color_to_detect = np.array(Config_Color.Color_CV2['cv2_inrange_lowest'], dtype="uint8")
+    highest_color_to_detect = np.array(Config_Color.Color_CV2['cv2_inrange_highest'], dtype="uint8")
 
     detected_img = cv2.inRange(img, lowest_color_to_detect, highest_color_to_detect)
     contours, hierarchy = cv2.findContours(detected_img, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
@@ -40,7 +38,7 @@ def detect_color(image_file_path, label_text_path, class_list):
 
     result = []
     for green_button_elem in detected_button_list:
-        value = config_ES.Location_List[green_button_elem]
+        value = Config_Elevator_SW.Location_List[green_button_elem]
         if value != 999:
             result.append(value)
 
@@ -61,7 +59,7 @@ def check_contour_points(contour_list, hierarchy_list):
 
     for i, contour in enumerate(contour_list):
         area = cv2.contourArea(contour)
-        if area > config_DETECTION.Detection_Range['MinCircleArea']:
+        if area > Config_Detection.Detection_Range['MinCircleArea']:
             final_contour.append(contour)
             final_hierarchy.append(np_new_hierarchy_list[i])
             

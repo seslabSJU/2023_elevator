@@ -85,14 +85,14 @@ def Extract_datetime(img_path):
         else:
             return None
 
-def Detect(img_path):
+def Detect(img_name):
     class_list = classid.get_class_id_list(config_DETECT.Detection_path['yaml_path'])
 
-    now_green_button_list = Detect_Color.detect_color(img_path, config_DETECT.Detection_path['label_txt_path'], class_list)
+    now_green_button_list = Detect_Color.detect_color(img_name, config_DETECT.Detection_path['label_txt_path'], class_list)
     return now_green_button_list
 
 def Run():
-    images = Sort_image.get_images(Config_DefaultPath.picture_default_path)
+    images_Folder = Sort_image.get_images(Config_Detection.Detection_path['image_folder_path'])
 
     root_list = List_Button_On_Floor.TimeList()
     previous_green_button_list = []
@@ -100,13 +100,13 @@ def Run():
     previous_frame = -1
     count = 1
 
-    for img_path in images:
-        timestamp_str = Extract_datetime(img_path)
+    for img_name in images_Folder:
+        timestamp_str = Extract_datetime(img_name)
         
-        print("Reading Button Log From image {}...".format(img_path))
-        config_DETECT.Detection_path['image_file_path'] = img_path
+        print("Reading Button Log From image {}...".format(img_name))
+        config_DETECT.Detection_path['image_file_path'] = f"{Config_Detection.Detection_path['image_folder_path']}/{img_name}"
 
-        now_green_button_list = Detect(img_path)
+        now_green_button_list = Detect(img_name)
 
         frame = Logging.log_green_button(config_DETECT, previous_green_button_list, now_green_button_list)
 
