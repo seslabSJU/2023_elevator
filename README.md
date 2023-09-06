@@ -1,4 +1,5 @@
-<How To Use>
+How To Use
+
 1. install by ZIP or git clone<br/>
 	
 2. go to Effective-Elevator-Energy-Calculation-for-SejongAI-Center directory<br/>
