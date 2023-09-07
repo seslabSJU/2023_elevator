@@ -20,9 +20,9 @@ def extract_frames(video_path, output_folder, start_timestamp, second=-1):
 
             if not ret:
                 break
-            timestamp = start_timestamp + datetime.timedelta(seconds=frame_count / 30.0)
+            timestamp = start_timestamp + datetime.timedelta(seconds=frame_count / 15.0)
 
-            if frame_count % 30 == 0:
+            if frame_count % 15 == 0:
                 timestamp_str = timestamp.strftime("%Y%m%d_%H%M%S")
 
                 # Save the frame as an image

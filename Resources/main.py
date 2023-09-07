@@ -25,7 +25,7 @@ logging.basicConfig(filename='/home/user/Desktop/service_log.log', level=logging
 
 def Capture_Video():
     cnt_max = 1
-    time_per_cnt = 10 * Raspi_Shoot.second
+    time_per_cnt = 20 * Raspi_Shoot.second
     
     Video_File_Path, start_timestamp = Raspi_Shoot.shoot(cnt_max, time_per_cnt)
     result_queue.put((Video_File_Path, start_timestamp))
@@ -64,14 +64,14 @@ def Test():
     start = time.time()
     picture_folder_name = start_timestamp.strftime("%Y%m%d_%H%M%S")
     picture_location = f"{Config_DefaultPath.picture_default_path}/{picture_folder_name}"
-    Video_To_Image.extract_frames(Video_File_Path, picture_location, start_timestamp, second=30*60*30)
+    Video_To_Image.extract_frames(Video_File_Path, picture_location, start_timestamp, second=-1)
     #Video_To_Image.extract_frames(test_video_location, picture_location, datetime.datetime.now(), PROP=3000000)
     end = time.time()
     print("Interval Extract Frames : {} second".format(end-start))
     total_time += end-start
     
     start = time.time()
-    Video_To_Image.Rotate_Frames(picture_location)
+    #Video_To_Image.Rotate_Frames(picture_location)
     end = time.time()
     print("Interval Rotate Frames : {} second".format(end-start))
     total_time += end-start
@@ -84,6 +84,7 @@ def Test():
     total_time += end-start
     
     print("Total Time Spent is : {} second".format(total_time))
+    
     
 def Test2():
     total_time = 0 

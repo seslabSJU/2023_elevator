@@ -14,7 +14,7 @@ def get_sample_and_label():
 		image_path = f"{Config_DefaultPath.sample_default_path}/{sample_name}"
 		
 		image_path = Raspi_Shoot.take_one_picture(image_path)	
-		Video_To_Image.Rotate_Picture(image_path)
+		#Video_To_Image.Rotate_Picture(image_path)
 		
 		image = cv2.imread(image_path)
 		View_Label.display_label_info(image, Config_Detection.Detection_path['label_txt_path'])

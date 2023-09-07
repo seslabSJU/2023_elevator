@@ -52,8 +52,8 @@ def create_log(log_file_name, message):
 
 def run(shoot_time, log_file_name):
     vid_command = "libcamera-vid"
-    vid_width = " --width 1920"
-    vid_height = " --height 1080"
+    vid_width = " --width 1080"
+    vid_height = " --height 1920"
     vid_time = f" -t {shoot_time} -o "
     timestamp_str = timestamp.strftime("%Y%m%d%H%M%S")
     
@@ -98,7 +98,7 @@ def shoot(cnt_max, time_per_cnt):
         return video_file_path, start_timestamp
 
 def take_one_picture(picture_path):
-    command = f"libcamera-jpeg --width 1920 --height 1080 -o {picture_path}"
+    command = f"libcamera-jpeg --width 1080 --height 1920 -o {picture_path}"
     os.system(command)
     
     return picture_path
