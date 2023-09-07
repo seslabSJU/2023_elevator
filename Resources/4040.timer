@@ -1,0 +1,9 @@
+[Unit]
+Description=4040 Serice Timer
+
+[Timer]
+OnBootSec=1min
+Unit=4040.Service
+
+[Install]
+WantedBy=default.target

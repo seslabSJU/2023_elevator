@@ -1,0 +1,9 @@
+[Unit]
+Description=Automatic Video Shooting When Turned On
+
+[Service]
+User=user
+ExecStart=/usr/bin/python3 /home/user/Desktop/Effective-Elevator-Energy-Calculation-for-SejongAI-Center/Resources/main.py >> /home/user/Desktop/service_log.log
+
+[Install]
+WantedBy=default.target
