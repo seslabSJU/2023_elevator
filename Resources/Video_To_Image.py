@@ -81,6 +81,15 @@ def Rotate_Frames(Frame_Foler_Path):
                 cv2.imwrite(file_path, rotated_image)
                 print(f"Rotated and saved: {file_path}")
 
+def Rotate_Picture(picture_path):
+    # Read the image
+    image = cv2.imread(picture_path)
+
+    if image is not None:
+        # Rotate the image 90 degrees to the right
+        rotated_image = cv2.rotate(image, cv2.ROTATE_90_CLOCKWISE)
+        cv2.imwrite(picture_path, rotated_image)
+        print(f"Rotated and saved: {picture_path}")
 
 if __name__ == '__main__':
     vid = '/home/user/Videos/libcamera_vid/Result/No1_20230726235205.h264'

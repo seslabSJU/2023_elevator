@@ -127,6 +127,7 @@ class Config_DefaultPath:
     video_capture_default_path = None
     log_default_path = None
     picture_default_path = None
+    sample_default_path = None
     config_default_path = None
     label_txt_default_path = None
     yaml_default_path = None

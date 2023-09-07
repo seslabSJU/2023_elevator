@@ -97,6 +97,11 @@ def shoot(cnt_max, time_per_cnt):
     else:
         return video_file_path, start_timestamp
 
+def take_one_picture(picture_path):
+    command = f"libcamera-jpeg --width 1920 --height 1080 -o {picture_path}"
+    os.system(command)
+    
+    return picture_path
 
 if __name__ == '__main__':
     cnt_max = 1

@@ -1,4 +1,5 @@
 import cv2
+'''
 import Detect_Color
 
 path = f'E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Images_Real\Vid_No3_2023-06-30-15-03'
@@ -12,7 +13,20 @@ for img in images:
 
     height, width = src.shape[:2]
 
-    dst = cv2.resize(src, (int(width*0.75), int(height*0.66)), interpolation=cv2.INTER_AREA)
+    dst = cv2.resize(src, (int(width*0.5), int(height*0.5)), interpolation=cv2.INTER_AREA)
     # cv2.imshow('result', dst)
     # key = cv2.waitKey(0)
+    
     cv2.imwrite(img, dst)
+'''
+
+def resize(image_path):
+    src = cv2.imread(image_path)
+    #cv2.imshow('origin', src)
+
+    height, width = src.shape[:2]
+
+    dst = cv2.resize(src, (int(width*0.5), int(height*0.5)), interpolation=cv2.INTER_AREA)
+    # cv2.imshow('result', dst)
+    # key = cv2.waitKey(0)
+    cv2.imwrite(image_path, dst)

@@ -43,9 +43,17 @@ def make_dirs_for_program():
 		dir_name = "Pictures"
 		if not os.path.exists(dir_name):
 			os.makedirs(dir_name)
-
+		
 		os.chdir(dir_name)
 		picture_default_path = os.getcwd()
+
+		os.chdir(folder_default_path)
+		dir_name = "Sample"
+		if not os.path.exists(dir_name):
+			os.makedirs(dir_name)
+
+		os.chdir(dir_name)
+		sample_default_path = os.getcwd()
 
 		os.chdir(folder_default_path)
 		dir_name = "Videos"
@@ -65,6 +73,7 @@ def make_dirs_for_program():
 
 		Config_DefaultPath.log_default_path = log_default_path
 		Config_DefaultPath.picture_default_path = picture_default_path
+		Config_DefaultPath.sample_default_path = sample_default_path
 		Config_DefaultPath.video_capture_default_path = video_capture_default_path
 		Config_DefaultPath.config_default_path = config_default_path
 

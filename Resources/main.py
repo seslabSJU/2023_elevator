@@ -7,6 +7,7 @@ import threading
 import queue
 
 import Make_Dirs
+import Pic_and_Show
 import cv2_Detection
 import GetPressure
 import Raspi_Shoot
@@ -47,6 +48,8 @@ def Test():
     Make_Dirs.make_dirs_for_program()
     Make_Dirs.make_files_for_program()
     
+    #Pic_and_Show.get_sample_and_label()
+    
     start = time.time()
     #Get_Pressure()
     capture_video_thread = threading.Thread(target=Capture_Video)
@@ -81,7 +84,7 @@ def Test():
     total_time += end-start
     
     print("Total Time Spent is : {} second".format(total_time))
-
+    
 def Test2():
     total_time = 0 
     
