@@ -132,6 +132,9 @@ class Config_DefaultPath:
     label_txt_default_path = None
     yaml_default_path = None
 
+class Config_Test:
+    Video_sample_folder_path_Windows = f"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Videos"
+
 class Config_Model:
     Model_Train = {
         'data': f'datasets/SAI Elevator.v1i.yolov8.yaml',

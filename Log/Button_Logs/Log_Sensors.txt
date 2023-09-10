@@ -1,3 +1,0 @@
-[TimeStamp]
-Altimeter : -13.1457623m
-Temperature : 28.14 Degree Celsius

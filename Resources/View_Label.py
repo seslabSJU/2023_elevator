@@ -64,8 +64,10 @@ def display_label_info(image, label_text_path):
         #     text_offset += label_config.Text['height']
 
     cv2.namedWindow('sample', cv2.WINDOW_NORMAL)
-    image_rs = cv2.resize(image, (270,480))
-    cv2.imshow('sample', image_rs)
+    cv2.imshow('sample', image)
+
+    #image_rs = cv2.resize(image, (270,480))
+    #cv2.imshow('sample', image_rs)
     key = cv2.waitKey(0)
 
 if __name__== '__main__':

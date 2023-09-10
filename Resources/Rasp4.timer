@@ -1,9 +1,9 @@
 [Unit]
-Description=4040 Serice Timer
+Description=4040 Service Timer
 
 [Timer]
 OnBootSec=1min
-Unit=4040.Service
+Unit=Rasp4.Service
 
 [Install]
 WantedBy=default.target

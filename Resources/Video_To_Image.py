@@ -1,18 +1,29 @@
+import glob
 import os
 import time
 import datetime
 import cv2
 
+
+
+
 def extract_frames(video_path, output_folder, start_timestamp, second=-1):
     # Create the output folder if it doesn't exist
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
+        extract_frames_logic(video_path, output_folder, start_timestamp, second)
 
-    # Open the video file
+    elif len(os.listdir(output_folder)) == 0:
+        extract_frames_logic(video_path, output_folder, start_timestamp, second)
+
+    else:
+        print("Picture Already Exists in this folder")
+        exit(1)
+
+def extract_frames_logic(video_path, output_folder, start_timestamp, second=-1):
     cap = cv2.VideoCapture(video_path)
     frame_count = 0
 
-    log_start = time.time()
     if second == -1:
         while True:
             # Read a frame from the video
@@ -20,9 +31,9 @@ def extract_frames(video_path, output_folder, start_timestamp, second=-1):
 
             if not ret:
                 break
-            timestamp = start_timestamp + datetime.timedelta(seconds=frame_count / 15.0)
+            timestamp = start_timestamp + datetime.timedelta(seconds=frame_count / 30.0)
 
-            if frame_count % 15 == 0:
+            if frame_count % 30 == 0:
                 timestamp_str = timestamp.strftime("%Y%m%d_%H%M%S")
 
                 # Save the frame as an image
@@ -43,7 +54,7 @@ def extract_frames(video_path, output_folder, start_timestamp, second=-1):
                 break
             timestamp = start_timestamp + datetime.timedelta(seconds=frame_count / 30.0)
             count = count + 1
-            
+
             if frame_count % 30 == 0:
                 timestamp_str = timestamp.strftime("%Y%m%d_%H%M%S")
 
@@ -55,9 +66,6 @@ def extract_frames(video_path, output_folder, start_timestamp, second=-1):
 
             frame_count += 1
         cap.release()
-
-    log_end = time.time()
-    print("Time Spent is {} seconds".format(log_end-log_start))
 
 def Rotate_Frames(Frame_Foler_Path):
     if not os.path.exists(Frame_Foler_Path):
@@ -92,8 +100,9 @@ def Rotate_Picture(picture_path):
         print(f"Rotated and saved: {picture_path}")
 
 if __name__ == '__main__':
-    vid = '/home/user/Videos/libcamera_vid/Result/No1_20230726235205.h264'
-    vid_name = 'No1_20230726235205.h264'
-    output = f'/home/user/Videos/Pictures/{vid_name}'
-    time = datetime.datetime.now()
-    extract_frames(vid, output, time)
+    # vid = '/home/user/Videos/libcamera_vid/Result/No1_20230726235205.h264'
+    # vid_name = 'No1_20230726235205.h264'
+    # output = f'/home/user/Videos/Pictures/{vid_name}'
+    # time = datetime.datetime.now()
+    # extract_frames(vid, output, time)
+    pass

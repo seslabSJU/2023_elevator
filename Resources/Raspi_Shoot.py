@@ -22,21 +22,21 @@ def create_folder():
 
     os.chdir(Config_DefaultPath.video_capture_default_path)
     if not os.path.exists(dir_name):
-        os.mkdir(dir_name)
+        os.makedirs(dir_name)
     
     os.chdir(dir_name)
-    video_caputure_dir_path = os.getcwd()
+    video_capture_dir_path = os.getcwd()
     
     dir_name = "Result"
     if not os.path.exists(dir_name):
-        os.mkdir(dir_name)
+        os.makedirs(dir_name)
         
     os.chdir(dir_name)
     video_capture_result_dir_path = os.getcwd()
     
     #print(video_caputure_dir_path)
     #print(video_capture_result_dir_path)
-    Config_VideoCapture.video_capture_dir_path = video_caputure_dir_path
+    Config_VideoCapture.video_capture_dir_path = video_capture_dir_path
     Config_VideoCapture.video_capture_result_dir_path = video_capture_result_dir_path
 
 def create_log(log_file_name, message):
@@ -50,15 +50,14 @@ def create_log(log_file_name, message):
         log_file.write(log_message + "\n")
 
 
-def run(shoot_time, log_file_name):
+def run(Raspi_Number, shoot_time, log_file_name):
     vid_command = "libcamera-vid"
     vid_width = " --width 1080"
     vid_height = " --height 1920"
     vid_time = f" -t {shoot_time} -o "
     timestamp_str = timestamp.strftime("%Y%m%d%H%M%S")
     
-    vid_output = f"{Config_VideoCapture.video_capture_dir_path}" + f"/No_{timestamp_str}.h264"
-    # stream_output = " --save-pts " + folder_name + f"/Result/timestamps.txt"
+    vid_output = fr"{Config_VideoCapture.video_capture_dir_path}\{Raspi_Number}" + fr"\{Raspi_Number}_{timestamp_str}.h264"
     command = vid_command + vid_width + vid_height + vid_time + vid_output
 
     message = "Video Start"
@@ -79,16 +78,16 @@ def run_commad(command):
     #print(command)
     os.system(command)
 
-def shoot(cnt_max, time_per_cnt):
+def shoot(Raspi_Number, cnt_max, time_per_cnt):
     create_folder()
     cnt = 0
     video_file_path = None
     start_timestamp = None
 
     while cnt != cnt_max:
-        log_file_name = f"No1_{timestamp.strftime('%Y%m%d%H%M')}"
+        log_file_name = f"{Raspi_Number}_{timestamp.strftime('%Y%m%d%H%M')}"
 
-        video_file_path, start_timestamp = run(time_per_cnt, log_file_name)
+        video_file_path, start_timestamp = run(Raspi_Number, time_per_cnt, log_file_name)
         cnt = cnt + 1
 
     if (video_file_path is None) or (start_timestamp is None):
