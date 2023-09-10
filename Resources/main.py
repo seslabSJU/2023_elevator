@@ -159,4 +159,5 @@ def Test_Windows(Raspi_Number):
     return 0
 
 if __name__ == '__main__':
-    Test_Linux(Raspi_Number)
+    #Test_Linux(Raspi_Number)
+    Test_Windows(Raspi_Number)
