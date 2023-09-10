@@ -61,15 +61,15 @@ def make_dirs_for_Elevator_Result_Linux(Raspi_Number):
 
 	else:
 		os.chdir(Config_DefaultPath.folder_default_path)
-		dir_name = f"Logs\{Raspi_Number}"
+		dir_name = f"Logs/{Raspi_Number}"
 		if not os.path.exists(dir_name):
 			os.makedirs(dir_name)
 
-		os.chdir(f"Logs\{Raspi_Number}")
+		os.chdir(f"Logs/{Raspi_Number}")
 		log_default_path = os.getcwd()
 
 		os.chdir(Config_DefaultPath.folder_default_path)
-		dir_name = f"Pictures\{Raspi_Number}"
+		dir_name = f"Pictures/{Raspi_Number}"
 		if not os.path.exists(dir_name):
 			os.makedirs(dir_name)
 
@@ -85,7 +85,7 @@ def make_dirs_for_Elevator_Result_Linux(Raspi_Number):
 		sample_default_path = os.getcwd()
 
 		os.chdir(Config_DefaultPath.folder_default_path)
-		dir_name = f"Videos\{Raspi_Number}"
+		dir_name = f"Videos/{Raspi_Number}"
 		if not os.path.exists(dir_name):
 			os.makedirs(dir_name)
 

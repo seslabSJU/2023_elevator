@@ -134,6 +134,7 @@ class Config_DefaultPath:
 
 class Config_Test:
     Video_sample_folder_path_Windows = f"E:\ML\Elevator Git\Effective-Elevator-Energy-Calculation-for-SejongAI-Center\Videos"
+    Video_sample_folder_path_Linux = fr"/home/user/Videos"
 
 class Config_Model:
     Model_Train = {

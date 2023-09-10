@@ -11,14 +11,12 @@ hour = 60 * minute
 day = 24 * hour
 timestamp = datetime.datetime.now().replace(microsecond=0)
 
-def create_folder():
-    #now = datetime.datetime.now()
-
+def create_folder(Raspi_Number):
     if Config_DefaultPath.video_capture_default_path is None:
         print("In Raspi Shoot, Config_DefaultPath.video_capture_default_path is None")
         exit(0)
                 
-    dir_name = timestamp.strftime("%Y%m%d%H%M%S")
+    dir_name = fr"{Raspi_Number}/{timestamp.strftime('%Y%m%d%H%M%S')}"
 
     os.chdir(Config_DefaultPath.video_capture_default_path)
     if not os.path.exists(dir_name):
@@ -34,8 +32,6 @@ def create_folder():
     os.chdir(dir_name)
     video_capture_result_dir_path = os.getcwd()
     
-    #print(video_caputure_dir_path)
-    #print(video_capture_result_dir_path)
     Config_VideoCapture.video_capture_dir_path = video_capture_dir_path
     Config_VideoCapture.video_capture_result_dir_path = video_capture_result_dir_path
 
@@ -50,14 +46,37 @@ def create_log(log_file_name, message):
         log_file.write(log_message + "\n")
 
 
-def run(Raspi_Number, shoot_time, log_file_name):
+def run_Windows(Raspi_Number, shoot_time, log_file_name):
     vid_command = "libcamera-vid"
     vid_width = " --width 1080"
     vid_height = " --height 1920"
-    vid_time = f" -t {shoot_time} -o "
+    vid_time = f" --framerate 30 -t {shoot_time} -o "
     timestamp_str = timestamp.strftime("%Y%m%d%H%M%S")
     
-    vid_output = fr"{Config_VideoCapture.video_capture_dir_path}\{Raspi_Number}" + fr"\{Raspi_Number}_{timestamp_str}.h264"
+    vid_output = fr"{Config_VideoCapture.video_capture_dir_path}\{Raspi_Number}\{Raspi_Number}_{timestamp_str}.h264"
+    command = vid_command + vid_width + vid_height + vid_time + vid_output
+
+    message = "Video Start"
+    create_log(log_file_name, message)
+
+    thr = Thread(target=run_commad, args=(command,))
+
+    thr.start()
+    thr.join()
+
+    message = "Video End"
+    create_log(log_file_name, message)
+
+    return vid_output, timestamp
+    
+def run_Linux(Raspi_Number, shoot_time, log_file_name):
+    vid_command = "libcamera-vid"
+    vid_width = " --width 1080"
+    vid_height = " --height 1920"
+    vid_time = f" --framerate 15 -t {shoot_time} -o "
+    timestamp_str = timestamp.strftime("%Y%m%d%H%M%S")
+    
+    vid_output = fr"{Config_VideoCapture.video_capture_dir_path}/{Raspi_Number}_{timestamp_str}.h264"
     command = vid_command + vid_width + vid_height + vid_time + vid_output
 
     message = "Video Start"
@@ -73,13 +92,12 @@ def run(Raspi_Number, shoot_time, log_file_name):
 
     return vid_output, timestamp
 
-
 def run_commad(command):
-    #print(command)
+    print(command)
     os.system(command)
 
 def shoot(Raspi_Number, cnt_max, time_per_cnt):
-    create_folder()
+    create_folder(Raspi_Number)
     cnt = 0
     video_file_path = None
     start_timestamp = None
@@ -87,7 +105,8 @@ def shoot(Raspi_Number, cnt_max, time_per_cnt):
     while cnt != cnt_max:
         log_file_name = f"{Raspi_Number}_{timestamp.strftime('%Y%m%d%H%M')}"
 
-        video_file_path, start_timestamp = run(Raspi_Number, time_per_cnt, log_file_name)
+        video_file_path, start_timestamp = run_Linux(Raspi_Number, time_per_cnt, log_file_name)
+        #video_file_path, start_timestamp = run_Windows(Raspi_Number, time_per_cnt, log_file_name)
         cnt = cnt + 1
 
     if (video_file_path is None) or (start_timestamp is None):
